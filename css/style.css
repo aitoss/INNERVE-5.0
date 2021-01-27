@@ -1,3 +1,102 @@
 body{
-    background-color: black;
+    background-color: blue;
 }
+
+
+.nav-main {
+    position: fixed;
+    z-index: 98;
+    top: 90px !important;
+    right: 40px !important;
+    width: 130px;
+    height: 200px !important;
+    display: block;
+    pointer-events: none;
+    mix-blend-mode: difference
+}
+
+.nav-main:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 0;
+    height: 0;
+    background-color: none;
+    border-bottom-left-radius: 200%;
+    z-index: -1;
+    -webkit-transition: width cubic-bezier(.77, 0, .175, 1) .6s, height cubic-bezier(.77, 0, .175, 1) .6s, border-radius linear .8s;
+    transition: width cubic-bezier(.77, 0, .175, 1) .6s, height cubic-bezier(.77, 0, .175, 1) .6s, border-radius linear .8s
+}
+
+.nav__content {
+    position: relative;
+    visibility: hidden;
+    text-align: left;
+    mix-blend-mode: difference;
+    z-index: 100;
+    padding-top: 0
+}
+
+.nav__list {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    z-index: 2
+}
+
+.nav__list-item {
+    position: relative;
+    display: block;
+    -webkit-transition-delay: .8s;
+    transition-delay: .8s;
+    opacity: 0;
+    text-align: right;
+    overflow: hidden;
+    font-family: Poppins, sans-serif;
+    font-size: 22px;
+    line-height: 1.2;
+    letter-spacing: 2px;
+    -webkit-transform: translate(20px, 0);
+    transform: translate(20px, 0);
+    -webkit-transition: opacity .2s ease, -webkit-transform .3s ease;
+    transition: opacity .2s ease, -webkit-transform .2s ease;
+    transition: opacity .2s ease, transform .2s ease;
+    transition: opacity .2s ease, transform .2s ease, -webkit-transform .2s ease;
+    margin-top: 4px;
+    margin-bottom: 4px
+}
+
+.nav__list-item a {
+    position: relative;
+    text-decoration: none;
+    color: var(--white);
+    overflow: hidden;
+    cursor: pointer;
+    font-family: Poppins, sans-serif;
+    font-weight: 600;
+    z-index: 2;
+    padding-right: 0;
+    display: inline-block;
+    -webkit-transition: all .2s linear;
+    transition: all .2s linear
+}
+
+.nav__list-item a:before {
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    width: 0;
+    height: 10px;
+    background-color: var(--green);
+    -webkit-transition: all .2s linear;
+    transition: all .2s linear
+}
+
+.nav__list-item a:hover:before {
+    width: 100%
+}
+
+
