@@ -862,7 +862,7 @@ body.nav-active .nav__list-item:nth-child(7) {
     .ribbon [class*="ribbon-"] {
         width: 257px;
     }
-    .ribbon [class*="ribbon-"] .inner{
+    .ribbon [class*="ribbon-"] .inner {
         font-size: 0.9em;
     }
     .ribbon.active .ribbon-1:before {
@@ -872,7 +872,6 @@ body.nav-active .nav__list-item:nth-child(7) {
         width: 315px;
         font-size: 45px;
     }
-    
     .ribbon.active .ribbon-2:before {
         width: 276px;
     }
@@ -885,7 +884,6 @@ body.nav-active .nav__list-item:nth-child(7) {
     .ribbon .ribbon-3 .inner {
         padding: 25px 0;
     }
-
     .ribbon.active .ribbon-3:before {
         width: 300px;
     }
@@ -1046,34 +1044,22 @@ body.nav-active .nav__list-item:nth-child(7) {
         text-align: center;
         margin-left: -15em;
     }
-    #circle text {
-        font-size: 18px;
-        font-weight: 500;
-        text-align: center;
-        letter-spacing: 2.8px;
-        fill: var(--white)
-    }
     #circle svg {
         position: absolute;
         width: 15em;
         height: 100%;
         animation: rotate 7s linear infinite;
-        -webkit-animation-play-state: paused;
-        -moz-animation-play-state: paused;
-        animation-play-state: paused
+        -webkit-animation-play-state: running;
+        -moz-animation-play-state: running;
+        animation-play-state: running
     }
-    .btn-approach {
+    .btn-approach .btn .btn-primary {
         width: 9em;
         background-color: #102770;
         border: none;
         border-radius: 0;
         text-align: right;
         /* text-align: right; */
-    }
-    #circle:hover svg {
-        -webkit-animation-play-state: running;
-        -moz-animation-play-state: running;
-        animation-play-state: running
     }
 }
 
@@ -1085,8 +1071,8 @@ body.nav-active .nav__list-item:nth-child(7) {
 .qna {
     border-bottom: 1px solid white;
     border-top: 1px solid white;
-    padding-top: 1.2em !important;
-    padding-bottom: 1.2em !important;
+    padding-top: 1.5em !important;
+    padding-bottom: 1.5em !important;
 }
 
 .qna .qna-ques p,
@@ -1117,6 +1103,9 @@ body.nav-active .nav__list-item:nth-child(7) {
     }
     .steps-para {
         font-size: 1.2em;
+    }
+    .inv-buttons {
+        display: none;
     }
 }
 
@@ -1180,7 +1169,7 @@ body.nav-active .nav__list-item:nth-child(7) {
 
 .sponsor-main {
     margin-top: 100px;
-    margin-bottom: 100px;
+    margin-bottom: -100px;
 }
 
 .background-sponsor {
