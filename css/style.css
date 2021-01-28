@@ -833,8 +833,6 @@ body.nav-active .nav__list-item:nth-child(7) {
 
 .ribbon .fadeRight {
     opacity: 0;
-    position: relative;
-    top: -45px;
     -webkit-transform: translateX(100%);
     transform: translateX(100%);
     -webkit-transition: all .3s ease-in-out 1.56s;
@@ -864,12 +862,17 @@ body.nav-active .nav__list-item:nth-child(7) {
     .ribbon [class*="ribbon-"] {
         width: 257px;
     }
+    .ribbon [class*="ribbon-"] .inner{
+        font-size: 0.9em;
+    }
     .ribbon.active .ribbon-1:before {
         width: 128px;
     }
     .ribbon .ribbon-2 {
         width: 315px;
+        font-size: 45px;
     }
+    
     .ribbon.active .ribbon-2:before {
         width: 276px;
     }
@@ -877,7 +880,12 @@ body.nav-active .nav__list-item:nth-child(7) {
         width: 240px;
         height: 125px;
         margin-top: 14px;
+        font-size: 9px;
     }
+    .ribbon .ribbon-3 .inner {
+        padding: 25px 0;
+    }
+
     .ribbon.active .ribbon-3:before {
         width: 300px;
     }
