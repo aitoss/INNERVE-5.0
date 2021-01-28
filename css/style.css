@@ -1629,4 +1629,31 @@ p {
     transform: translate(-50%, 100%);
 }
 
+@media only screen and (max-width: 600px) {
+    .social-icons {
+        display: flex;
+        /* flex-wrap: wrap; */
+        padding: 0;
+        margin: 0;
+    }
+    .social-ico {
+        justify-content: center;
+        align-items: center;
+        margin-top: -60px;
+    }
+    .social-icon {
+        transform: scale(0.7);
+        left: 0vw;
+        padding: 0;
+        margin: -8px;
+    }
+    #gentle-wave {
+        position: absolute;
+        top: -100vh;
+        display: none;
+    }
+    .ques-num {
+        display: none;
+    }
+}
 /* ----------------------------------- Animation of Contact and Waves Section --------------------------- */
