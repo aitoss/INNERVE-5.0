@@ -1657,3 +1657,75 @@ p {
     }
 }
 /* ----------------------------------- Animation of Contact and Waves Section --------------------------- */
+
+
+/* button */
+
+a.link-portfolio {
+    position: relative;
+    color: white;
+    font-size: 16px;
+    letter-spacing: 2px;
+    line-height: 1.35;
+    font-weight: 500;
+    cursor: pointer;
+    pointer-events: auto;
+    display: inline-block;
+    padding: 8px 25px;
+    -webkit-transition: all .2s linear;
+    transition: all .2s linear;
+    opacity: 1 !important
+}
+
+
+a.link-portfolio:hover {
+    opacity: 1 !important
+}
+
+a.link-portfolio:before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 40px;
+    height: 100%;
+    background-color: royalblue;
+    -webkit-transition: all .2s linear;
+    transition: all .2s linear
+}
+
+a.link-portfolio:hover:before {
+    width: 100%
+}
+
+a.link-portfolio.right:before {
+    left: auto;
+    right: 0
+}
+
+    a.link-portfolio {
+        font-size: 15px;
+        letter-spacing: 0;
+        line-height: 1.35;
+        padding: 8px 15px
+    }
+    a.link-portfolio:before {
+        width: 100%
+    }
+
+a.link-portfolio {
+    position: relative;
+    color: var(--white);
+    font-size: 16px;
+    letter-spacing: 2px;
+    line-height: 1.35;
+    font-weight: 500;
+    cursor: pointer;
+    pointer-events: auto;
+    display: inline-block;
+    padding: 8px 25px;
+    -webkit-transition: all .2s linear;
+    transition: all .2s linear;
+    opacity: 1 !important
+}
