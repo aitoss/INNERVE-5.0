@@ -266,7 +266,8 @@ p {
     z-index: -1;
     width: 0;
     height: 10px;
-    background-color: var(--green);
+    background-color: blue;
+    opacity: 0.5;    
     -webkit-transition: all .2s linear;
     transition: all .2s linear
 }
@@ -1793,6 +1794,21 @@ body.nav-active .nav__list-item:nth-child(7) {
     animation-duration: 20s;
 }
 
+.parallax>use:nth-child(5) {
+    animation-delay: -6s;
+    animation-duration: 10s;
+}
+
+.parallax>use:nth-child(6) {
+    animation-delay: -7s;
+    animation-duration: 13s;
+}
+
+.parallax>use:nth-child(7) {
+    animation-delay: -8s;
+    animation-duration: 20s;
+}
+
 @keyframes move-forever {
     0% {
         transform: translate3d(-90px, 0, 0);
@@ -2182,8 +2198,17 @@ header {
         -webkit-transition-delay: 1.2s;
         transition-delay: 1.2s
     }
+    body.nav-active .nav__list-item:nth-child(6) {
+        -webkit-transition-delay: 1.2s;
+        transition-delay: 1.3s
+    }
+    body.nav-active .nav__list-item:nth-child(7) {
+        -webkit-transition-delay: 1.2s;
+        transition-delay: 1.4s
+    }
     .nav-main:after {
         background-color: black;
+        opacity: 0.9;
     }
     .nav-main {
         mix-blend-mode: normal;
