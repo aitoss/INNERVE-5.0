@@ -1050,7 +1050,7 @@ body.nav-active .nav__list-item:nth-child(7) {
 }
 
 .btn-approach {
-    width: 9em;
+    width: 8em;
     /* background-color: #102770; */
     border: none;
     border-radius: 0;
@@ -1070,14 +1070,14 @@ body.nav-active .nav__list-item:nth-child(7) {
     z-index: -1;
     width: 40px;
     height: 2.4em;
-    right: 3em;
+    right: 3.5em;
     background-color: #102770;
     -webkit-transition: all .2s linear;
     transition: all .2s linear
 }
 
 .btn-approach:hover:before {
-    width: 100%;
+    width: 8em;
 }
 
 #circle:hover svg {
@@ -1121,8 +1121,8 @@ body.nav-active .nav__list-item:nth-child(7) {
 .qna {
     border-bottom: 1px solid white;
     border-top: 1px solid white;
-    padding-top: 1.5em !important;
-    padding-bottom: 2.5em !important;
+    padding-top: 2em !important;
+    padding-bottom: 3em !important;
 }
 
 .qna .qna-ques p,
