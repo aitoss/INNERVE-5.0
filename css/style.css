@@ -432,8 +432,13 @@ body.nav-active .nav__list-item:nth-child(7) {
 }
 
 .home-box2 {
-    width: 48% !important;
-    height: 6em;
+    height: 5em;
+}
+
+.home-box2 .col-md-6{
+    -webkit-box-flex: 0;
+    flex: 0 0 48%;
+    max-width: 48%;
 }
 
 .home-box2-1 {
@@ -470,7 +475,10 @@ body.nav-active .nav__list-item:nth-child(7) {
     border-radius: 5px;
     height: 3.3em;
     max-width: 48% !important;
-    cursor: pointer !important;
+}
+
+.home-button-1 {
+    cursor: not-allowed;
 }
 
 .home-button-1 h4 {
@@ -492,8 +500,7 @@ body.nav-active .nav__list-item:nth-child(7) {
     backdrop-filter: blur(46px);
     border-radius: 5px;
     height: 3.3em;
-    max-width: 48% !important;
-    cursor: pointer !important;
+    max-width: 48%;
 }
 
 .home-button-2 h4 {
@@ -516,8 +523,8 @@ body.nav-active .nav__list-item:nth-child(7) {
     }
     .home-button-1 h4,
     .home-button-2 h4 {
-        font-size: 18px;
-        width: 67%;
+        font-size: 14px !important;
+        width: 400px !important;
     }
     .home-box2-1,
     .home-box2-2 {
@@ -550,6 +557,23 @@ body.nav-active .nav__list-item:nth-child(7) {
         margin-top: 20px;
         width: 100%;
     }
+
+    .home-box2 .col-md-6{
+        -webkit-box-flex: 0;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .home-box2 {
+        height: 10em;
+    }
+    
+    .home-button-1 {
+        max-width: 100% !important;
+    }
+    .home-button-2 {
+        max-width: 100% !important;
+    }
 }
 
 @media(max-width:600px) {
@@ -565,17 +589,23 @@ body.nav-active .nav__list-item:nth-child(7) {
     .home-box1 {
         font-size: 1em;
     }
+    .home-button-1 {
+        max-width: 100% !important;
+    }
+    .home-button-2 {
+        max-width: 100% !important;
+    }
     .home-button-1 h4,
     .home-button-2 h4 {
-        font-size: 11px;
-        width: 95%;
+        font-size: 15px;
+        width: 60%;
     }
     .home-box2-1,
     .home-box2-2 {
         font-size: 0.7rem;
     }
     .home-box2 {
-        height: 4em;
+        height: 10em;
     }
     .home-button-1,
     .home-button-2 {
@@ -740,7 +770,7 @@ body.nav-active .nav__list-item:nth-child(7) {
 
 .ribbon .ribbon-3 .inner {
     color: #e8a713;
-    padding: 19px 0;
+    padding: 5px 0;
 }
 
 .ribbon .ribbon-3:before {
