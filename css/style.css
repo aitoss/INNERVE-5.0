@@ -812,8 +812,8 @@ p {
 /* ------------------------------------------- Steps Section -------------------------------------------- */
 
 .img-steps img{
-    height: 400px;
-    width: 400px;
+    height: 450px;
+    width: 450px;
 }
 
 .steps-head h2{
@@ -841,3 +841,39 @@ p {
 }
 /* ------------------------------------------- Steps Section -------------------------------------------- */
 
+/* ------------------------------------------- Speaker Section ------------------------------------------ */
+
+.speaker-card {
+    height: 400px;
+}
+
+.speaker-card:hover {
+    transform: scale(1.05);
+    transition: box-shadow .4s ease, transform .4s ease, z-index 0s ease 0s;
+}
+
+.speaker-card .speaker-img {
+    max-width: 10em;
+    min-width: 10em;
+    max-height: 10em;
+    min-height: 10em;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+}
+
+.speaker-card h4 {
+    font-size: 1.2em !important;
+}
+
+.speaker-card p {
+    font-size: 0.95em;
+    max-width: 60%;
+    margin: auto;
+}
+
+.speaker-card .card-arrow {
+    width: 25px;
+}
+
+/* ------------------------------------------- Speaker Section ------------------------------------------ */
