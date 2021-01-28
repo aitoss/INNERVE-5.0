@@ -435,7 +435,7 @@ body.nav-active .nav__list-item:nth-child(7) {
     height: 5em;
 }
 
-.home-box2 .col-md-6{
+.home-box2 .col-md-6 {
     -webkit-box-flex: 0;
     flex: 0 0 48%;
     max-width: 48%;
@@ -557,17 +557,14 @@ body.nav-active .nav__list-item:nth-child(7) {
         margin-top: 20px;
         width: 100%;
     }
-
-    .home-box2 .col-md-6{
+    .home-box2 .col-md-6 {
         -webkit-box-flex: 0;
         flex: 0 0 100%;
         max-width: 100%;
     }
-
     .home-box2 {
         height: 10em;
     }
-    
     .home-button-1 {
         max-width: 100% !important;
     }
@@ -1054,10 +1051,33 @@ body.nav-active .nav__list-item:nth-child(7) {
 
 .btn-approach {
     width: 9em;
-    background-color: #102770;
+    /* background-color: #102770; */
     border: none;
     border-radius: 0;
+    color: #fff;
     /* text-align: right; */
+}
+
+.btn-approach:hover {
+    opacity: 1 !important;
+    text-decoration: none;
+    color: #fff;
+}
+
+.btn-approach:before {
+    position: absolute;
+    content: '';
+    z-index: -1;
+    width: 40px;
+    height: 2.4em;
+    right: 3em;
+    background-color: #102770;
+    -webkit-transition: all .2s linear;
+    transition: all .2s linear
+}
+
+.btn-approach:hover:before {
+    width: 100%;
 }
 
 #circle:hover svg {
