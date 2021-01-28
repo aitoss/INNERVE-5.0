@@ -877,3 +877,75 @@ p {
 }
 
 /* ------------------------------------------- Speaker Section ------------------------------------------ */
+
+/* ------------------------------------------- Sponsor Section ------------------------------------------ */
+
+.background-sponsor {
+    background: transparent;
+    backdrop-filter: blur(4px);
+    border-radius: 12px;
+}
+
+.sponsor-subheader {
+    padding: 5px;
+    margin: 0;
+    font-size: 20px;
+}
+
+.sponsor-card {
+    border-radius: 5px;
+    height: 200px;
+    transition: 0.6s;
+    margin-top: 32px;
+}
+
+.sponsor-card {
+    border-radius: 5px;
+    height: 180px;
+    transition: 0.6s;
+    margin-top: 32px;
+}
+
+.sponsor-card:hover {
+    transform: scale(1.05);
+}
+
+@media (max-width:756px) {
+    .background-sponsor {
+        background: transparent;
+        backdrop-filter: blur(4px);
+        border-radius: 12px;
+    }
+    .sponsor-subheader {
+        padding: 5px;
+        margin: 0;
+        font-size: 20px;
+    }
+    .sponsor-card {
+        border-radius: 5px;
+        height: 200px;
+        transition: 0.6s;
+        margin-top: 32px;
+    }
+    .sponsor-card:hover {
+        transform: scale(1.2);
+    }
+}
+@media all and (max-width:768px) {
+    .udchaloimg,
+    .ftimg,
+    .alimg,
+    .ctimg,
+    .accimg,
+    .smaimg,
+    .bbimg,
+    .twiimg,
+    .cbimg,
+    .crimg,
+    .bugimg,
+    .foximg {
+        width: 100% !important;
+    }
+}
+
+/* ------------------------------------------- Sponsor Section ------------------------------------------ */
