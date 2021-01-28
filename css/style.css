@@ -748,6 +748,22 @@ p {
 
 /* ------------------------------------------- Themes Section ------------------------------------------- */
 
+.themes-text h1{
+    font-size: 2.5em;
+}
+
+.themes-text h3{
+    font-size: 2.3em;
+}
+
+.themes-text p{
+    font-size: 1.3em;
+}
+
+.text-type-1 h3, .text-type-1 p{
+    text-align: right;
+    margin-left: 10px;
+}
 .carousel-item{
     height: 600px;
     width: 100%;
@@ -784,4 +800,44 @@ p {
     }
 }
 
+@media (max-width:768px){
+    .text-type-1 h3, .text-type-1 p{
+        text-align: center;
+        margin-left: 0px;
+    }
+}
+
 /* ------------------------------------------- Themes Section ------------------------------------------- */
+
+/* ------------------------------------------- Steps Section -------------------------------------------- */
+
+.img-steps img{
+    height: 400px;
+    width: 400px;
+}
+
+.steps-head h2{
+    font-size: 2.5em;
+}
+
+.steps-para{
+    font-size:1.5em;
+}
+
+
+@media (max-width:600px) {
+    .img-steps img{
+        height: 300px;
+        width: 300px;
+    }
+    
+    .steps-head h2{
+        font-size: 1.8em;
+    }
+    
+    .steps-para{
+        font-size:1.2em;
+    }
+}
+/* ------------------------------------------- Steps Section -------------------------------------------- */
+
