@@ -21,32 +21,54 @@
 
 <body>
 
-    <header>
-        <div class=nav-main>
-            <div class=nav__content>
-                <ul class="nav__list active-nav-menu">
-                    <li class=nav__list-item>
-                        <a href=#navabout id="navItem" class="active-nav-menu stick-cursor" onclick="addNavActive()">About</a>
-                    </li>
-                    <li class=nav__list-item>
-                        <a href=#navwork id="navItem" class="active-nav-menu stick-cursor" onclick="addNavActive()">Themes</a>
-                    </li>
-                    <li class=nav__list-item>
-                        <a href=#navfaq id="navItem" class="active-nav-menu stick-cursor" onclick="addNavActive()">FAQ</a>
-                    </li>
-                    <li class=nav__list-item>
-                        <a href=#navspeaker id="navItem" class="active-nav-menu stick-cursor" onclick="addNavActive()">Speakers</a>
-                    </li>
-                    <li class=nav__list-item>
-                        <a href=#navsponsors id="navItem" class="active-nav-menu stick-cursor" onclick="addNavActive()">Sponsors</a>
-                    </li>
-                    <li class=nav__list-item>
-                        <a href=#navcontact id="navItem" class="active-nav-menu stick-cursor" onclick="addNavActive()">Contact</a>
-                    </li>
-                    <li class=nav__list-item>
-                        <a href=mailto:innerve@aitpune.edu.in id="navItem" class="active-nav-menu stick-cursor" onclick="addNavActive()">Email</a>
-                    </li>
-                </ul>
+    <div class=nav-main>
+        <div class=nav__content>
+            <ul class="nav__list active-nav-menu">
+                <li class=nav__list-item>
+                    <a href=#navabout id="navItem" class="active-nav-menu stick-cursor" onclick="addNavActive()">About</a>
+                </li>
+                <li class=nav__list-item>
+                    <a href=#navwork id="navItem" class="active-nav-menu stick-cursor" onclick="addNavActive()">Themes</a>
+                </li>
+                <li class=nav__list-item>
+                    <a href=#navfaq id="navItem" class="active-nav-menu stick-cursor" onclick="addNavActive()">FAQ</a>
+                </li>
+                <li class=nav__list-item>
+                    <a href=#navspeaker id="navItem" class="active-nav-menu stick-cursor"
+                        onclick="addNavActive()">Speakers</a>
+                </li>
+                <li class=nav__list-item>
+                    <a href=#navsponsors id="navItem" class="active-nav-menu stick-cursor"
+                        onclick="addNavActive()">Sponsors</a>
+                </li>
+                <li class=nav__list-item>
+                    <a href=#navcontact id="navItem" class="active-nav-menu stick-cursor"
+                        onclick="addNavActive()">Contact</a>
+                </li>
+                <li class=nav__list-item>
+                    <a href=mailto:innerve@aitpune.edu.in id="navItem" class="active-nav-menu stick-cursor"
+                        onclick="addNavActive()">Email</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <header class="navigation-wrap cbp-af-header">
+        <div class="container-fluid anime-4">
+            <div class=row>
+                <div class="col align-self-center pr-0">
+                    <div class="logo">
+                        <a href=#top class=stick-cursor data-gal=m_PageScroll2id>
+                            <img id="fav-logo-innerve" src=assets/img/logo.png alt=logo>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-auto align-self-center pl-0" onclick="addNavActive()">
+                    <div class=section>
+                        <div class=nav-but-wrap>
+                            <div class="menu-icon stick-cursor"></div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </header>
@@ -604,6 +626,7 @@
         <!---------------------------------------------------- Waves Section --------------------------------------------------------->
     </main>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js" integrity="sha512-XKa9Hemdy1Ui3KSGgJdgMyYlUg1gM+QhL6cnlyTe2qzMCYm4nAZ1PsVerQzTTXzonUR+dmswHqgJPuwCq1MaAg==" crossorigin="anonymous"></script>
+    <script src="js/app.js"></script>
 </body>
 
 </html>
