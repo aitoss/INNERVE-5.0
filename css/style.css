@@ -2185,6 +2185,20 @@ body.load-anime .anime-4 {
 
  /* clock */
 
+.timer-block {
+    margin: auto;
+    margin-top: 1em;
+    height: 10em;
+    width: 10em;
+    background: linear-gradient(118.61deg, rgba(71, 78, 142, 0.45) -16.34%, rgba(60, 64, 97, 0.009) 50.42%);
+    backdrop-filter: blur(20px);
+    border-radius: 20px;
+    border: 1px solid #260262;
+    text-align: center;
+    padding: 0.5em;
+    padding-top: 2em !important;
+    justify-content: center;
+}
  
 .countdown {
     justify-content: center;
@@ -2200,4 +2214,27 @@ body.load-anime .anime-4 {
     /* color: #909bd9 !important; */
     color: #fff !important;
     /* text-shadow: 5px 4px 10px #2968f0; */
+}
+
+@media(max-width:756px) {
+    .test-block {
+        height: 15em;
+    }
+    .test-block-2 {
+        height: 5em;
+    }
+    .countdown {
+        width: 100%;
+        margin: 1em;
+    }
+    .countdown .timer-block {
+        width: 4em;
+        text-align: center;
+        height: 4em;
+        padding-top: 0.5em !important;
+    }
+    .countdown .timer-block .timer-static {
+        font-size: 0.7em;
+        margin-top: -1em;
+    }
 }
