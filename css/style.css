@@ -2162,3 +2162,23 @@ body.load-anime .anime-4 {
         transform: rotate(0) translateX(0)
     }
 }
+
+/* scroll bar */
+
+
+::-webkit-scrollbar {
+    width: 5px
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 10px
+}
+
+::-webkit-scrollbar-thumb {
+    background: blue;
+    border-radius: 3px
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: blue;
+}
