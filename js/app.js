@@ -1,4 +1,3 @@
-alert("palak dhokebaaz hai!");
 let body = document.getElementById("body-element")
 
 const addNavActive = () => {
