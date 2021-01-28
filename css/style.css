@@ -979,6 +979,9 @@ p {
 .contact-main{
     margin-top: 200px;
     margin-bottom: 50px;
+    position: relative;
+    width: 100%;
+    display: block;
 }
 
 #mail-container {
