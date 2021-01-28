@@ -2182,3 +2182,22 @@ body.load-anime .anime-4 {
 ::-webkit-scrollbar-thumb:hover {
     background: blue;
 }
+
+ /* clock */
+
+ 
+.countdown {
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    /* margin-top: 3em; */
+}
+
+.countdown .timer-block .timer-static,
+.countdown .timer-block .timer-value {
+    font-family: 'Montserrat', sans-serif;
+    /* color: #909bd9 !important; */
+    color: #fff !important;
+    /* text-shadow: 5px 4px 10px #2968f0; */
+}
