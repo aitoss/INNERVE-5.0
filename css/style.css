@@ -1947,7 +1947,7 @@ header{
         transition-delay: 1.2s
     }
     .nav-main:after {
-        background-color: var(--black)
+        background-color: black;
     }
     .nav-main {
         mix-blend-mode: normal;
@@ -2117,6 +2117,7 @@ body.load-anime .anime-4 {
     border-radius: 50%;
     box-shadow: 0px 0px 6px 2px #909bd9;
 }
+
 
 
 @media (max-width:575px) {
