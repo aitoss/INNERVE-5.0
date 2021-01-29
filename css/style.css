@@ -1178,8 +1178,6 @@ a.btn-approach:hover:before {
     /* margin-top: -15px */
 }
 
-
-
 @keyframes rotate {
     from {
         transform: rotate(360deg)

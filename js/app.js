@@ -8,7 +8,7 @@ const addNavActive = () => {
 }
 
 // handle links with @href started with '#' only
-$(document).on('click', 'a[href^="#nav"]', function (e) {
+$(document).on('click', 'a[href^="#nav"]', function(e) {
     // target element id
     var id = $(this).attr('href');
 
@@ -41,7 +41,7 @@ $(document).on('click', 'a[href^="#nav"]', function (e) {
 //     }
 // }
 
-window.onscroll = function () { scrollFunction() };
+window.onscroll = function() { scrollFunction() };
 
 function scrollFunction() {
     if (document.body.scrollTop > 25 || document.documentElement.scrollTop > 25) {
@@ -55,7 +55,7 @@ function scrollFunction() {
 
 var InnerveDate = new Date("Feb 25,2021 09:00:00").getTime();
 
-var x = setInterval(function () {
+var x = setInterval(function() {
     var now = new Date().getTime();
     var timeLeft = InnerveDate - now;
     // console.log(timeLeft, InnerveDate, now);
