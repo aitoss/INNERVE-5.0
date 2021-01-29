@@ -16,7 +16,8 @@ html {
     font-family: sans-serif;
     line-height: 1.15;
     -webkit-text-size-adjust: 100%;
-    -webkit-tap-highlight-color: transparent
+    -webkit-tap-highlight-color: transparent;
+    overflow-x: hidden !important;
 }
 
 body {
@@ -24,7 +25,7 @@ body {
     padding: 0;
     margin: 0;
     color: white;
-    overflow-x: hidden;
+    overflow-x: hidden !important;
     font-family: Poppins, sans-serif;
     font-weight: 400;
     font-size: 18px;
@@ -899,7 +900,7 @@ body.nav-active .nav__list-item:nth-child(7) {
 }
 
 .qna-icon-plus {
-    font-size: 28px;
+    font-size: 24px;
     align-items: center;
     line-height: 1;
 }
@@ -1077,17 +1078,18 @@ body.nav-active .nav__list-item:nth-child(7) {
 
 a.btn-approach {
     position: relative;
-    width: 8em;
+    width: 9em;
     /* background-color: #102770; */
     border: none;
     border-radius: 0;
     color: #fff;
-    text-align: right;
+    text-align: center;
     justify-content: space-around;
 }
 
 #mail-btn {
-    width: 12em;
+    width: 14em;
+    text-align: center;
 }
 
 a.btn-approach:hover {
@@ -1100,7 +1102,7 @@ a.btn-approach:before {
     position: absolute;
     content: '';
     z-index: -1;
-    width: 40px;
+    width: 60px;
     height: 2.4em;
     right: 0;
     top: 0;
@@ -1151,7 +1153,6 @@ a.btn-approach:hover:before {
 }
 
 .qna p {
-    margin: 0 1em;
     font-size: 1.2em;
 }
 
@@ -1165,6 +1166,10 @@ a.btn-approach:hover:before {
 .qna .qna-ques p,
 .qna .qna-answer p {
     font-size: 1em;
+}
+
+.qna .qna-answer p{
+    margin: 0 1em;
 }
 
 .qna .qna-answer {
@@ -1181,6 +1186,18 @@ a.btn-approach:hover:before {
     right: 0;
     /* top: 50%; */
     /* margin-top: -15px */
+}
+
+@media screen and (max-width:600px){
+    .qna .qna-ques p,
+    .qna .qna-answer p {
+        font-size: 0.7em;
+    }
+
+    .qna-number{
+        display: none;
+    }
+
 }
 
 @keyframes rotate {
