@@ -113,6 +113,11 @@ p {
         line-height: 1.1;
         font-weight: 800
     }
+    .h1-sponsor {
+        font-size: 8vw;
+        line-height: 1.1;
+        font-weight: 800;
+    }
     .p,
     p {
         font-size: 1.5vw
@@ -1235,7 +1240,7 @@ a.btn-approach:hover:before {
 }
 
 .speaker-card {
-    height: 400px;
+    height: 320px;
     filter: blur(4px);
 }
 
@@ -2530,8 +2535,8 @@ body.load-anime .anime-4 {
 
 .main-sponsor {
     border-radius: 15px;
-    background:#4d5664d8;
-    padding: 10%;
+    background:#909bd9;
+    padding: 5%;
 }
 
 .btn-1 {
