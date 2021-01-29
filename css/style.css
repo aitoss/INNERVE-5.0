@@ -1829,6 +1829,11 @@ body.nav-active .nav__list-item:nth-child(7) {
     h1 {
         font-size: 24px;
     }
+
+    .carousel-item {
+        height: 900px;
+        width: 100%;
+    }
 }
 
 .contact {
