@@ -980,11 +980,13 @@ body.nav-active .nav__list-item:nth-child(7) {
 .carousel-control-next-icon {
     position: absolute;
     right: 0;
+    top: 290px;
 }
 
 .carousel-control-prev-icon {
     position: absolute;
     left: 0;
+    top: 290px;
 }
 
 .carousel-indicators li.active {
