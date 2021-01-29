@@ -2401,6 +2401,7 @@ body.load-anime .anime-4 {
 #fav-logo-innerve {
     border-radius: 50%;
     box-shadow: 0px 0px 6px 2px #909bd9;
+    z-index: 1000;
 }
 
 @media (max-width:575px) {
@@ -2522,53 +2523,53 @@ body.load-anime .anime-4 {
     }
 }
 
-.oss-logo{
+.oss-logo {
     width: 400px;
     height: 400px;
-
 }
 
-.main-sponsor{
+.main-sponsor {
     border-radius: 15px;
-    background: linear-gradient(to bottom, #131b25 48%, #161827 99%);
+    background:#4d5664d8;
     padding: 10%;
 }
-
-
 
 .btn-1 {
     background: #082147;
     font-weight: 100;
-  }
-  .btn-1 svg {
-    height: 55px;
+}
+
+.btn-1 svg {
+    height: 48px;
     left: 0;
     position: absolute;
     top: 0;
     width: 100%;
-  }
-  .btn-1 rect {
+}
+
+.btn-1 rect {
     fill: none;
     stroke: #fff;
     stroke-width: 2;
     stroke-dasharray: 422, 0;
     transition: all 0.35s linear;
-  }
-  
-  .btn-1:hover {
-    background: rgba(225, 51, 45, 0);
+}
+
+.btn-1:hover {
+    background: #102770;
     font-weight: 900;
     letter-spacing: 1px;
-  }
-  .btn-1:hover rect {
+    color: white;
+}
+
+.btn-1:hover rect {
     stroke-width: 15;
     stroke-dasharray: 15, 310;
     stroke-dashoffset: 48;
     transition: all 1.35s cubic-bezier(0.19, 1, 0.22, 1);
-  }
+}
 
-
-.btn {
+.btn-sponsor {
     color: #fff;
     cursor: pointer;
     font-size: 16px;
@@ -2580,24 +2581,23 @@ body.load-anime .anime-4 {
     text-decoration: none;
     text-transform: uppercase;
     width: 100%;
-  }
-  @media (min-width: 600px) {
-    .btn {
-      margin: 0 1em 2em;
-    }
-    
-  }
+}
 
-  @media (max-width: 600px) {
-   
-    .oss-logo{
+@media (min-width: 600px) {
+    .btn-sponsor {
+        margin: 0 1em 2em;
+    }
+}
+
+@media (max-width: 600px) {
+    .oss-logo {
         width: 200px;
         height: 200px;
         margin-top: 10%;
         margin-bottom: -25%;
     }
-    
-  }
-  .btn:hover {
+}
+
+.btn-sponsor:hover {
     text-decoration: none;
-  }
+}
