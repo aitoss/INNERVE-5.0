@@ -891,6 +891,12 @@ body.nav-active .nav__list-item:nth-child(7) {
     opacity: 1;
 }
 
+.qna-icon-plus {
+    font-size: 28px;
+    align-items: center;
+    line-height: 1;
+}
+
 @media (max-width:480px) {
     .ribbon [class*="ribbon-"] {
         width: 257px;
@@ -1171,36 +1177,7 @@ a.btn-approach:hover:before {
     /* margin-top: -15px */
 }
 
-.qna-ques::before {
-    position: absolute;
-    z-index: 1;
-    content: '';
-    width: 15px;
-    height: 2px;
-    background-color: var(--white);
-    right: 15px;
-    /* top: 50%; */
-    margin-top: 0.35em;
-    transform: translateY(-50%)
-}
 
-.qna-ques::after {
-    position: absolute;
-    z-index: 1;
-    content: '';
-    width: 2px;
-    height: 15px;
-    background-color: var(--white);
-    right: 21px;
-    /* top: 50%; */
-    margin-top: -25px;
-    -webkit-transition: all .2s linear;
-    transition: all .2s linear
-}
-
-.qna-ques[aria-expanded=true]::after {
-    transform: rotate(90deg)
-}
 
 @keyframes rotate {
     from {

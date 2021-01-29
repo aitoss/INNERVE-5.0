@@ -29,7 +29,7 @@
         href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap&subset=devanagari,latin-ext"
         rel=stylesheet>
 
-    <link rel=icon type=image/png href="./img/logo.png">
+    <link rel=icon type=image/png href="assets/img/logo.png">
     <link rel=apple-touch-icon href=apple-touch-icon.png>
     <link rel=apple-touch-icon sizes=72x72 href=apple-touch-icon-72x72.png>
     <link rel=apple-touch-icon sizes=114x114 href=apple-touch-icon-114x114.png>
@@ -581,22 +581,28 @@
                 </div>
                 <div class="col-md-8 justify-content-around qna-right">
                     <div class="qna">
-                        <div class="qna-ques" data-toggle=collapse href=#faq-1 role=button aria-expanded=false
-                            aria-controls=faq-1 aria-label=faq-1>
-                            <p><span class="pr-3 ques-num">1</span>What are the perks of attending Innerve 5.0?</p>
+                        <div onclick="changeFaqIcon(this.id)" class="qna-ques" data-toggle=collapse href=#faq-1
+                            role=button aria-expanded=false aria-controls=faq-1 aria-label=faq-1 id=faq-q1>
+                            <p><span class="pr-3 ques-num">1</span>What are the perks of attending Innerve 5.0?
+                                <span class="float-right qna-icon-plus mt-0" id="faq-q1-qna-icon">+</span>
+                            </p>
+
                         </div>
                         <div class="collapse qna-answer" id=faq-1>
                             <p>
                                 Sessions by the best speakers in their domains, a 24-hour hackathon with amazing problem
                                 statements and prizes! Goodies and Swags. Cmon, still need more?
                             </p>
+
                         </div>
                     </div>
                     <div class="qna">
-                        <div class="qna-ques" data-toggle=collapse href=#faq-2 role=button aria-expanded=false
-                            aria-controls=faq-2 aria-label=faq-2>
+                        <div onclick="changeFaqIcon(this.id)" class="qna-ques" data-toggle=collapse href=#faq-2
+                            role=button aria-expanded=false aria-controls=faq-2 aria-label=faq-2 id=faq-q2>
                             <p><span class="pr-3 ques-num">2</span>Do I need to have any specific qualifications to be a
-                                participant in the Hackathon?</p>
+                                participant in the Hackathon?
+                                <span class="float-right qna-icon-plus mt-0" id="faq-q2-qna-icon">+</span>
+                            </p>
                         </div>
                         <div class="collapse qna-answer" id=faq-2>
                             <p>
@@ -606,9 +612,10 @@
                     </div>
 
                     <div class="qna">
-                        <div class="qna-ques" data-toggle=collapse href=#faq-3 role=button aria-expanded=false
-                            aria-controls=faq-3 aria-label=faq-3>
+                        <div onclick="changeFaqIcon(this.id)" class="qna-ques" data-toggle=collapse href=#faq-3
+                            role=button aria-expanded=false aria-controls=faq-3 aria-label=faq-3 id=faq-q3>
                             <p><span class="pr-3 ques-num">3</span> Is there any registration fees to attend Innerve?
+                                <span class="float-right qna-icon-plus mt-0" id="faq-q3-qna-icon">+</span>
                             </p>
                         </div>
                         <div class="collapse qna-answer" id=faq-3>
@@ -618,9 +625,11 @@
                         </div>
                     </div>
                     <div class="qna">
-                        <div class="qna-ques" data-toggle=collapse href=#faq-4 role=button aria-expanded=false
-                            aria-controls=faq-4 aria-label=faq-4>
-                            <p><span class="pr-3 ques-num">4</span>Who can attend Innerve 5.0?</p>
+                        <div onclick="changeFaqIcon(this.id)" class="qna-ques" data-toggle=collapse href=#faq-4
+                            role=button aria-expanded=false aria-controls=faq-4 aria-label=faq-4 id=faq-q4>
+                            <p><span class="pr-3 ques-num">4</span>Who can attend Innerve 5.0?
+                                <span class="float-right qna-icon-plus mt-0" id="faq-q4-qna-icon">+</span>
+                            </p>
                         </div>
                         <div class="collapse qna-answer" id=faq-4>
                             <p>
@@ -630,9 +639,11 @@
                         </div>
                     </div>
                     <div class="qna">
-                        <div class="qna-ques" data-toggle=collapse href=#faq-5 role=button aria-expanded=false
-                            aria-controls=faq-5 aria-label=faq-5>
-                            <p><span class="pr-3 ques-num">5</span>Will Participants receive Certificates? </p>
+                        <div onclick="changeFaqIcon(this.id)" class="qna-ques" data-toggle=collapse href=#faq-5
+                            role=button aria-expanded=false aria-controls=faq-5 aria-label=faq-5 id=faq-q5>
+                            <p><span class="pr-3 ques-num">5</span>Will Participants receive Certificates?
+                                <span class="float-right qna-icon-plus mt-0" id="faq-q5-qna-icon">+</span>
+                            </p>
                         </div>
                         <div class="collapse qna-answer" id=faq-5>
                             <p>
@@ -642,9 +653,11 @@
                         </div>
                     </div>
                     <div class="qna">
-                        <div class="qna-ques" data-toggle=collapse href=#faq-6 role=button aria-expanded=false
-                            aria-controls=faq-6 aria-label=faq-6>
-                            <p><span class="pr-3 ques-num">6</span>Can the team members be from different colleges?</p>
+                        <div onclick="changeFaqIcon(this.id)" class="qna-ques" data-toggle=collapse href=#faq-6
+                            role=button aria-expanded=false aria-controls=faq-6 aria-label=faq-6 id=faq-q6>
+                            <p><span class="pr-3 ques-num">6</span>Can the team members be from different colleges?
+                                <span class="float-right qna-icon-plus mt-0" id="faq-q6-qna-icon">+</span>
+                            </p>
                         </div>
                         <div class="collapse qna-answer" id=faq-6>
                             <p>
@@ -654,9 +667,11 @@
                         </div>
                     </div>
                     <div class="qna">
-                        <div class="qna-ques" data-toggle=collapse href=#faq-7 role=button aria-expanded=false
-                            aria-controls=faq-7 aria-label=faq-7>
-                            <p><span class="pr-3 ques-num">7</span>What can be the maximum size of our team?</p>
+                        <div onclick="changeFaqIcon(this.id)" class="qna-ques" data-toggle=collapse href=#faq-7
+                            role=button aria-expanded=false aria-controls=faq-7 aria-label=faq-7 id=faq-q7>
+                            <p><span class="pr-3 ques-num">7</span>What can be the maximum size of our team?
+                                <span class="float-right qna-icon-plus mt-0" id="faq-q7-qna-icon">+</span>
+                            </p>
                         </div>
                         <div class="collapse qna-answer" id=faq-7>
                             <p>
