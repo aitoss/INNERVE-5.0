@@ -1064,6 +1064,7 @@ a.btn-approach {
     border-radius: 0;
     color: #fff;
     text-align: right;
+    justify-content: space-around;
 }
 
 #mail-btn {
@@ -1083,6 +1084,7 @@ a.btn-approach:before {
     width: 40px;
     height: 2.4em;
     right: 0;
+    top: 0;
     background-color: #102770;
     -webkit-transition: all .2s linear;
     transition: all .2s linear
@@ -1850,7 +1852,6 @@ a.btn-approach:hover:before {
     h1 {
         font-size: 24px;
     }
-
     .carousel-item {
         height: 900px;
         width: 100%;
