@@ -1838,7 +1838,7 @@ a.btn-approach:hover:before {
         font-size: 24px;
     }
     .carousel-item {
-        height: 900px;
+        height: 600px;
         width: 100%;
     }
 }
