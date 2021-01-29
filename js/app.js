@@ -53,7 +53,7 @@ function scrollFunction() {
 
 // countdown
 
-var InnerveDate = new Date("Feb 25,2021 09:00:00").getTime();
+var InnerveDate = new Date("Mar 6,2021 09:00:00").getTime();
 
 var x = setInterval(function() {
     var now = new Date().getTime();

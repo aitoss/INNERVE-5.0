@@ -1189,15 +1189,15 @@ a.btn-approach:hover:before {
 }
 
 @media screen and (max-width:600px){
-    .qna .qna-ques p,
-    .qna .qna-answer p {
-        font-size: 0.7em;
+    .qna .qna-ques p {
+        font-size: 0.8em;
     }
-
+    .qna .qna-answer p{
+        font-size: 0.75em;
+    }
     .qna-number{
         display: none;
     }
-
 }
 
 @keyframes rotate {
