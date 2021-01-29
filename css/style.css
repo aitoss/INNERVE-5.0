@@ -1014,8 +1014,9 @@ body.nav-active .nav__list-item:nth-child(7) {
     }
     .themes-text p {
         font-size: 0.9em;
-        justify-content: space-between;
-        text-align: justify;
+    }
+    .carousel-item {
+        width: 100%;
     }
 }
 
@@ -1835,10 +1836,6 @@ a.btn-approach:hover:before {
     }
     h1 {
         font-size: 24px;
-    }
-    .carousel-item {
-        height: 900px;
-        width: 100%;
     }
 }
 
