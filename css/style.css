@@ -267,7 +267,7 @@ p {
     width: 0;
     height: 10px;
     background-color: blue;
-    opacity: 0.5;    
+    opacity: 0.5;
     -webkit-transition: all .2s linear;
     transition: all .2s linear
 }
@@ -679,7 +679,7 @@ body.nav-active .nav__list-item:nth-child(7) {
 }
 
 .ribbon .ribbon-1 .inner {
-    letter-spacing: 16px;
+    letter-spacing: 14px;
     font-weight: 500;
 }
 
@@ -891,7 +891,7 @@ body.nav-active .nav__list-item:nth-child(7) {
         width: 257px;
     }
     .ribbon [class*="ribbon-"] .inner {
-        font-size: 0.9em;
+        font-size: 1.3em;
     }
     .ribbon.active .ribbon-1:before {
         width: 128px;
@@ -933,10 +933,11 @@ body.nav-active .nav__list-item:nth-child(7) {
 
 /* ------------------------------------------- Themes Section ------------------------------------------- */
 
-.themes-main {
+
+/* .themes-main {
     margin-top: 100px;
     margin-bottom: 100px;
-}
+} */
 
 .themes-text h1 {
     font-size: 2.5em;
@@ -998,6 +999,11 @@ body.nav-active .nav__list-item:nth-child(7) {
         text-align: center;
         margin-left: 0px;
     }
+    .themes-text p {
+        font-size: 0.9em;
+        justify-content: space-between;
+        text-align: justify;
+    }
 }
 
 
@@ -1007,7 +1013,7 @@ body.nav-active .nav__list-item:nth-child(7) {
 /* ------------------------------------------- Steps Section -------------------------------------------- */
 
 .steps-main {
-    margin-bottom: 200px;
+    margin-bottom: 150px;
 }
 
 .img-steps img {
@@ -1050,35 +1056,40 @@ body.nav-active .nav__list-item:nth-child(7) {
     animation-play-state: paused
 }
 
-.btn-approach {
+a.btn-approach {
+    position: relative;
     width: 8em;
     /* background-color: #102770; */
     border: none;
     border-radius: 0;
     color: #fff;
-    /* text-align: right; */
+    text-align: right;
 }
 
-.btn-approach:hover {
+#mail-btn {
+    width: 12em;
+}
+
+a.btn-approach:hover {
     opacity: 1 !important;
     text-decoration: none;
     color: #fff;
 }
 
-.btn-approach:before {
+a.btn-approach:before {
     position: absolute;
     content: '';
     z-index: -1;
     width: 40px;
     height: 2.4em;
-    right: 3.5em;
+    right: 0;
     background-color: #102770;
     -webkit-transition: all .2s linear;
     transition: all .2s linear
 }
 
-.btn-approach:hover:before {
-    width: 8em;
+a.btn-approach:hover:before {
+    width: 100%;
 }
 
 #circle:hover svg {
@@ -1088,12 +1099,16 @@ body.nav-active .nav__list-item:nth-child(7) {
 }
 
 @media(max-width:768px) {
+    .steps-main {
+        margin-bottom: 100px;
+    }
     #circle {
         position: relative;
         width: 180%;
         overflow: hidden;
         text-align: center;
         margin-left: -15em;
+        padding-bottom: 65%;
     }
     #circle svg {
         position: absolute;
@@ -1104,7 +1119,7 @@ body.nav-active .nav__list-item:nth-child(7) {
         -moz-animation-play-state: running;
         animation-play-state: running
     }
-    .btn-approach .btn .btn-primary {
+    .btn-approach .btn {
         width: 9em;
         background-color: #102770;
         border: none;
@@ -1201,6 +1216,9 @@ body.nav-active .nav__list-item:nth-child(7) {
     .inv-buttons {
         display: none;
     }
+    .ques-num {
+        display: none;
+    }
 }
 
 
@@ -1252,6 +1270,9 @@ body.nav-active .nav__list-item:nth-child(7) {
     .speaker-main {
         margin-top: 50px;
         margin-bottom: 0px;
+    }
+    .phone-none {
+        display: none;
     }
 }
 
@@ -2442,9 +2463,9 @@ body.load-anime .anime-4 {
 
 .timer-block {
     margin: auto;
-    margin-top: 1em;
-    height: 8em;
-    width: 8em;
+    margin-top: 3em;
+    height: 10em;
+    width: 10em;
     background: linear-gradient(118.61deg, rgba(71, 78, 142, 0.45) -16.34%, rgba(60, 64, 97, 0.009) 50.42%);
     backdrop-filter: blur(20px);
     border-radius: 20px;
@@ -2486,6 +2507,7 @@ body.load-anime .anime-4 {
         width: 4em;
         text-align: center;
         height: 4em;
+        margin-top: 1em;
         padding-top: 0.5em !important;
     }
     .countdown .timer-block .timer-static {
