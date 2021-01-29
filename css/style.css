@@ -949,11 +949,11 @@ body.nav-active .nav__list-item:nth-child(7) {
 }
 
 .themes-text h3 {
-    font-size: 2.3em;
+    font-size: 2.1em;
 }
 
 .themes-text p {
-    font-size: 1.3em;
+    font-size: 1em;
 }
 
 .text-type-1 h3,
@@ -2535,7 +2535,7 @@ body.load-anime .anime-4 {
 
 .main-sponsor {
     border-radius: 15px;
-    background:#909bd9;
+    background: #909bd9;
     padding: 5%;
 }
 
