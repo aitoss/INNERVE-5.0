@@ -517,10 +517,13 @@ body.nav-active .nav__list-item:nth-child(7) {
     width: 65%;
 }
 
-.discordimg,
 .registerimg {
-    height: 30px !important;
-    width: 30px !important;
+    height: 36px !important;
+    width: 36px !important;
+}
+
+.discordimg {
+    height: 50px;
 }
 
 @media screen and (min-width: 1000px) and (max-width: 1300px) {
@@ -553,8 +556,8 @@ body.nav-active .nav__list-item:nth-child(7) {
     }
     .discordimg,
     .registerimg {
-        height: 24px !important;
-        width: 24px !important;
+        height: 36px !important;
+        width: 36px !important;
     }
 }
 
@@ -616,8 +619,8 @@ body.nav-active .nav__list-item:nth-child(7) {
     }
     .discordimg,
     .registerimg {
-        height: 18px !important;
-        width: 16px !important;
+        height: 36px !important;
+        width: 36px !important;
     }
 }
 
@@ -1014,9 +1017,8 @@ body.nav-active .nav__list-item:nth-child(7) {
     }
     .themes-text p {
         font-size: 0.9em;
-    }
-    .carousel-item {
-        width: 100%;
+        justify-content: space-between;
+        text-align: justify;
     }
 }
 
@@ -1837,6 +1839,10 @@ a.btn-approach:hover:before {
     h1 {
         font-size: 24px;
     }
+    .carousel-item {
+        height: 900px;
+        width: 100%;
+    }
 }
 
 .contact {
@@ -2167,8 +2173,8 @@ header {
 }
 
 .logo img {
-    height: 3em;
-    width: 3em;
+    height: 4em;
+    width: 4em;
     display: block;
     -webkit-transition: all .7s ease;
     transition: all .7s ease;
