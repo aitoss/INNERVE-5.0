@@ -73,7 +73,7 @@ var x = setInterval(function() {
 }, 1000)
 
 const changeFaqIcon = (id) => {
-    console.log(id);
+    //console.log(id);
     if (document.getElementById(`${id}-qna-icon`).innerHTML == "+")
         document.getElementById(`${id}-qna-icon`).innerHTML = "-";
     else
