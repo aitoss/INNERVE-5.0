@@ -580,6 +580,10 @@ body.nav-active .nav__list-item:nth-child(7) {
     .home-button-2 {
         max-width: 100% !important;
     }
+    .home-box2-1,
+    .home-box2-2 {
+        font-size: 1.1rem;
+    }
 }
 
 @media(max-width:600px) {
@@ -608,7 +612,7 @@ body.nav-active .nav__list-item:nth-child(7) {
     }
     .home-box2-1,
     .home-box2-2 {
-        font-size: 0.7rem;
+        font-size: 1rem;
     }
     .home-box2 {
         height: 10em;
