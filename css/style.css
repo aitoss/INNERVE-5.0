@@ -194,7 +194,7 @@ p {
     height: 200px !important;
     display: block;
     pointer-events: none;
-    mix-blend-mode: difference
+    /* mix-blend-mode: difference */
 }
 
 .nav-main:after {
@@ -215,7 +215,7 @@ p {
     position: relative;
     visibility: hidden;
     text-align: left;
-    mix-blend-mode: difference;
+    /* mix-blend-mode: difference; */
     z-index: 100;
     padding-top: 0
 }
@@ -2147,7 +2147,7 @@ a.link-portfolio {
     top: 0;
     left: 0;
     z-index: 100000;
-    mix-blend-mode: difference;
+    /* mix-blend-mode: difference; */
     pointer-events: none
 }
 
@@ -2243,7 +2243,7 @@ header {
         opacity: 0.9;
     }
     .nav-main {
-        mix-blend-mode: normal;
+        /* mix-blend-mode: normal; */
         transition: all .3s ease-out
     }
     .nav-main {
@@ -2303,7 +2303,7 @@ header {
         font-size: 1.5vw
     }
     .logo-mob-dif-mob {
-        mix-blend-mode: difference
+        /* mix-blend-mode: difference */
     }
     body.load-anime .logo-mob-back:before {
         opacity: 0
@@ -2406,6 +2406,7 @@ body.load-anime .anime-4 {
 #fav-logo-innerve {
     border-radius: 50%;
     z-index: 1000;
+    fill-opacity: 100%;
 }
 
 @media (max-width:575px) {
@@ -2462,6 +2463,7 @@ body.load-anime .anime-4 {
 
 ::-webkit-scrollbar-thumb {
     background: blue;
+    opacity: 0.7;
     border-radius: 3px
 }
 
@@ -2469,6 +2471,9 @@ body.load-anime .anime-4 {
     background: blue;
 }
 
+svg{
+    fill-opacity: 100%;
+}
 
 /* clock */
 
