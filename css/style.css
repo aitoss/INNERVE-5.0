@@ -21,7 +21,7 @@ html {
 }
 
 body {
-    background-color: #1b2735;
+    background-color: #151e29;
     padding: 0;
     margin: 0;
     color: white;
@@ -55,6 +55,10 @@ h6 {
     font-weight: 700;
     line-height: 1.25;
     color: white
+}
+
+canvas{
+    position: fixed;
 }
 
 .h1,
@@ -2270,9 +2274,6 @@ header {
     }
     main {
         pointer-events: auto
-    }
-    canvas {
-        visibility: hidden
     }
     .circle-cursor,
     .circle-cursor--inner,
