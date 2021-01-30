@@ -1132,13 +1132,15 @@ a.btn-approach:hover:before {
         position: relative;
         overflow: hidden;
         text-align: center;
+        margin-bottom: -20%;
     }
     #circle svg {
         position: absolute;
+        height: 70%;
         animation: rotate 7s linear infinite;
         -webkit-animation-play-state: running;
         -moz-animation-play-state: running;
-        animation-play-state: running
+        animation-play-state: running;
     }
     .btn-approach .btn {
         width: 9em;
