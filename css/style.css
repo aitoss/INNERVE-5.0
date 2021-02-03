@@ -1232,6 +1232,37 @@ a.btn-approach:hover:before {
 /* ------------------------------------------- Steps Section -------------------------------------------- */
 
 
+/* ------------------------------------------- Prize Section -------------------------------------------- */
+
+.prizes-main {
+    margin-bottom: 5em;
+}
+
+.prize-card {
+    padding: 1em;
+    max-width: 80%;
+    min-width: 80%;
+    background-color: rgba(60, 64, 97, 90.9);
+    border-radius: 10px;
+}
+
+.prize-img {
+    justify-content: center;
+}
+
+.prize-card .prize-img img {
+    max-width: 85%;
+}
+
+.prize-card .prize-text {
+    font-size: 1em;
+    margin-top: 1.5em;
+}
+
+
+/* ------------------------------------------- Prize Section -------------------------------------------- */
+
+
 /* ------------------------------------------- Speaker Section ------------------------------------------ */
 
 .speaker-main {
