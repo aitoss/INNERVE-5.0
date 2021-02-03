@@ -1240,6 +1240,7 @@ a.btn-approach:hover:before {
 
 .prize-card {
     padding: 1em;
+    margin: 1em;
     max-width: 80%;
     min-width: 80%;
     background-color: rgba(60, 64, 97, 90.9);
