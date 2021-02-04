@@ -1234,37 +1234,29 @@ a.btn-approach:hover:before {
 
 .prizes-main {
     margin-bottom: 5em;
+    margin-top: 5em;
 }
 
-.prize-card {
-    padding: 1em;
-    margin: 1em;
-    max-width: 70%;
-    min-width: 70%;
-    background-color: rgba(60, 64, 97, 90.9);
-    border-radius: 10px;
+.prize-img-head {
+    margin-top: 2em;
+    width: 90%;
+    transform: rotateY(190deg);
 }
 
-.prize-card:hover {
-    box-shadow: #000 2px 9px 16px;
+#goodie {
+    font-size: 1.6em;
 }
 
-.prize-img {
-    justify-content: center;
-}
-
-.prize-card .prize-img img {
-    max-width: 65%;
-}
-
-.prize-card:hover .prize-img img {
-    transform: scale(1.2);
-    transition: 0.3s ease-in-out;
-}
-
-.prize-card .prize-text {
-    font-size: 1em;
-    margin-top: 1.5em;
+@media (max-width:600px) {
+    .prize-text {
+        margin-bottom: 1.5em;
+    }
+    .prize-img img {
+        max-width: 90%;
+    }
+    #goodie {
+        font-size: 1em;
+    }
 }
 
 
