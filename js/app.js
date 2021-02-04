@@ -1,3 +1,13 @@
+var particleNumber = 900;
+let windowWidth = $(window).width();
+
+if (windowWidth < 800 & windowWidth > 400){
+    particleNumber = 600;
+} else if (windowWidth <= 400) {
+    particleNumber = 400;
+}
+
+
 let body = document.getElementById("body-element")
 
 const addNavActive = () => {
