@@ -1325,6 +1325,13 @@ a.btn-approach:hover:before {
     margin-bottom: -100px;
 }
 
+
+/* .main-sponsor {
+    border-radius: 15px;
+    background: #909bd9;
+    padding: 5%;
+} */
+
 .background-sponsor {
     background: transparent;
     backdrop-filter: blur(4px);
@@ -1342,6 +1349,10 @@ a.btn-approach:hover:before {
     height: 200px;
     transition: 0.6s;
     margin-top: 32px;
+}
+
+.sponsor-card img {
+    border-radius: 10px;
 }
 
 .sponsor-card:hover {
@@ -2564,12 +2575,6 @@ svg {
 .oss-logo {
     width: 400px;
     height: 400px;
-}
-
-.main-sponsor {
-    border-radius: 15px;
-    background: #909bd9;
-    padding: 5%;
 }
 
 .btn-1 {
