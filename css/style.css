@@ -1353,6 +1353,13 @@ a.btn-approach:hover:before {
 
 .sponsor-card img {
     border-radius: 10px;
+    background-color: white;
+    /* height: 100%; */
+    /* padding: 1em; */
+}
+
+.ftimg {
+    padding: 1em;
 }
 
 .sponsor-card:hover {
