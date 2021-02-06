@@ -1356,10 +1356,6 @@ a.btn-approach:hover:before {
     /* padding: 1em; */
 }
 
-.ftimg {
-    padding: 1em;
-}
-
 .sponsor-card:hover {
     transform: scale(1.05);
 }
