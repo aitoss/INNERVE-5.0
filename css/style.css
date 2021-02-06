@@ -1333,8 +1333,6 @@ a.btn-approach:hover:before {
 } */
 
 .background-sponsor {
-    background: transparent;
-    backdrop-filter: blur(4px);
     border-radius: 12px;
 }
 
@@ -1348,7 +1346,7 @@ a.btn-approach:hover:before {
     border-radius: 5px;
     height: 200px;
     transition: 0.6s;
-    margin-top: 32px;
+    /* margin-top: 32px; */
 }
 
 .sponsor-card img {
