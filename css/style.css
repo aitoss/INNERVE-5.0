@@ -1325,6 +1325,13 @@ a.btn-approach:hover:before {
     margin-bottom: -100px;
 }
 
+.main-sponsor {
+    border-radius: 15px;
+    background: #909bd9;
+    padding: 5%;
+    margin-top: 5%;
+}
+
 .background-sponsor {
     border-radius: 12px;
 }
