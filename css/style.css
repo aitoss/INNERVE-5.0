@@ -1325,13 +1325,6 @@ a.btn-approach:hover:before {
     margin-bottom: -100px;
 }
 
-
-/* .main-sponsor {
-    border-radius: 15px;
-    background: #909bd9;
-    padding: 5%;
-} */
-
 .background-sponsor {
     border-radius: 12px;
 }
@@ -1346,14 +1339,11 @@ a.btn-approach:hover:before {
     border-radius: 5px;
     height: 200px;
     transition: 0.6s;
-    /* margin-top: 32px; */
 }
 
 .sponsor-card img {
     border-radius: 10px;
     background-color: white;
-    /* height: 100%; */
-    /* padding: 1em; */
 }
 
 .sponsor-card:hover {
@@ -1373,9 +1363,8 @@ a.btn-approach:hover:before {
     }
     .sponsor-card {
         border-radius: 5px;
-        height: 200px;
+        height: 150px;
         transition: 0.6s;
-        margin-top: 32px;
     }
     .sponsor-card:hover {
         transform: scale(1.2);
