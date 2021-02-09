@@ -1384,19 +1384,17 @@ a.btn-approach:hover:before {
 }
 
 @media all and (max-width:768px) {
-    .udchaloimg,
-    .ftimg,
-    .alimg,
-    .ctimg,
-    .accimg,
-    .smaimg,
-    .bbimg,
-    .twiimg,
-    .cbimg,
-    .crimg,
-    .bugimg,
-    .foximg {
+    .ftimg {
+        width: 85% !important;
+    }
+    .udchaloimg {
         width: 100% !important;
+    }
+    .saSirimg {
+        width: 90% !important;
+    }
+    .assimg {
+        width: 80% !important;
     }
 }
 
