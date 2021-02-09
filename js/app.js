@@ -1,7 +1,7 @@
 var particleNumber = 900;
 let windowWidth = $(window).width();
 
-if (windowWidth < 800 & windowWidth > 400){
+if (windowWidth < 800 & windowWidth > 400) {
     particleNumber = 600;
 } else if (windowWidth <= 400) {
     particleNumber = 400;
@@ -18,7 +18,7 @@ const addNavActive = () => {
 }
 
 // handle links with @href started with '#' only
-$(document).on('click', 'a[href^="#nav"]', function(e) {
+$(document).on('click', 'a[href^="#nav"]', function (e) {
     // target element id
     var id = $(this).attr('href');
 
@@ -51,7 +51,7 @@ $(document).on('click', 'a[href^="#nav"]', function(e) {
 //     }
 // }
 
-window.onscroll = function() { scrollFunction() };
+window.onscroll = function () { scrollFunction() };
 
 function scrollFunction() {
     if (document.body.scrollTop > 25 || document.documentElement.scrollTop > 25) {
@@ -65,7 +65,7 @@ function scrollFunction() {
 
 var InnerveDate = new Date("Mar 6,2021 09:00:00").getTime();
 
-var x = setInterval(function() {
+var x = setInterval(function () {
     var now = new Date().getTime();
     var timeLeft = InnerveDate - now;
     // console.log(timeLeft, InnerveDate, now);
@@ -89,3 +89,31 @@ const changeFaqIcon = (id) => {
     else
         document.getElementById(`${id}-qna-icon`).innerHTML = "+";
 }
+
+
+$(document).ready(function () {
+
+    // process the form
+    $('form').submit(function (event) {
+
+        // get the form data
+        // there are many ways to get this data using jQuery (you can use the class or id also)
+        var formData = {
+            'email': $('input[name=email]').val(),
+        };
+
+        // process the form
+        $.ajax({
+            type: 'POST',
+            url: 'https://aitoss.club/api/v1/innerveReminder',
+            data: formData,
+            dataType: 'json',
+            encode: true
+        })
+            .done(function (data) {
+                console.log(data);
+            });
+        event.preventDefault();
+    });
+
+});

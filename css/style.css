@@ -490,7 +490,7 @@ body.nav-active .nav__list-item:nth-child(7) {
 }
 
 .home-button-1 h4 {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 700;
     color: #0A144E;
     width: 65%;
@@ -514,7 +514,7 @@ body.nav-active .nav__list-item:nth-child(7) {
 
 .home-button-2 h4 {
     text-decoration: none;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 700;
     color: #dadada;
     width: 65%;
@@ -1090,6 +1090,28 @@ a.btn-approach {
     color: #fff;
     text-align: center;
     justify-content: space-around;
+}
+.sub-btn{
+    display: flex;
+    justify-content: center;
+}
+
+.sub-btn .btn-remind{
+    background-color:#102770;
+    color: white;
+    border: none;
+    border-radius: 0;
+}
+.sub-btn .btn-remind:hover{
+    background-color:#102770;
+    color: white;
+    border: none;
+    border-radius: 0;
+    outline: none;
+}
+
+.modal-dialog{
+    top: 30%;
 }
 
 #mail-btn {
