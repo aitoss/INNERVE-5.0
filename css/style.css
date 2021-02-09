@@ -480,17 +480,17 @@ body.nav-active .nav__list-item:nth-child(7) {
     width: 48%;
 }
 
-.home-button-1 a {
+.home-button-1 {
     background: #909BD9;
     backdrop-filter: blur(46px);
     border-radius: 5px;
     height: 3.3em;
-    /* max-width: 48% !important; */
+    max-width: 48% !important;
     cursor: pointer;
 }
 
 .home-button-1 h4 {
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 700;
     color: #0A144E;
     width: 65%;
@@ -499,22 +499,21 @@ body.nav-active .nav__list-item:nth-child(7) {
 .home-button-1 a,
 .home-button-2 a {
     text-decoration: none;
-    /* height: 100%; */
-    width: 95%;
+    height: 100%;
+    width: 100%;
 }
 
-.home-button-2 a {
+.home-button-2 {
     background: linear-gradient(105.22deg, #5C6BC0 -54.96%, #18298A 162.84%);
     backdrop-filter: blur(46px);
     border-radius: 5px;
     height: 3.3em;
-    /* max-width: 48%; */
-    cursor: pointer;
+    max-width: 48%;
 }
 
 .home-button-2 h4 {
     text-decoration: none;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 700;
     color: #dadada;
     width: 65%;
@@ -582,10 +581,6 @@ body.nav-active .nav__list-item:nth-child(7) {
     }
     .home-button-2 {
         max-width: 100% !important;
-    }
-    .home-button-1 a,
-    .home-button-2 a {
-        max-height: 100% !important;
     }
     .home-box2-1,
     .home-box2-2 {
@@ -1090,28 +1085,6 @@ a.btn-approach {
     color: #fff;
     text-align: center;
     justify-content: space-around;
-}
-.sub-btn{
-    display: flex;
-    justify-content: center;
-}
-
-.sub-btn .btn-remind{
-    background-color:#102770;
-    color: white;
-    border: none;
-    border-radius: 0;
-}
-.sub-btn .btn-remind:hover{
-    background-color:#102770;
-    color: white;
-    border: none;
-    border-radius: 0;
-    outline: none;
-}
-
-.modal-dialog{
-    top: 30%;
 }
 
 #mail-btn {
