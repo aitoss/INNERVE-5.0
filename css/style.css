@@ -2664,3 +2664,292 @@ svg {
 .btn-sponsor:hover {
     text-decoration: none;
 }
+
+/*------------------------------------------------------------------------------------------------------------------------------------*/
+/*-------------------------------------------------   PRIZES   -----------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------------------------------------------------------*/
+
+.prize-step{
+	padding-top : 25px !important;
+}
+
+@media only screen and (max-width: 780px) {
+	.prize-step{
+		padding-top : 0px !important; 
+	}
+}
+
+.prize-wrapper {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	}
+	
+  .prize-card {
+		-webkit-transition-duration: 300ms;
+    -o-transition-duration: 300ms;
+    transition-duration: 300ms;
+	}
+
+	.prize-card:hover {transform: scale(1.08) !important;}
+
+	.prize-card-size{
+		width: 350px;
+		height: 340px;
+	}
+	
+	.api-card-size {
+		width: 265px;
+		height: 320px;
+	}
+
+  .prize-card .prize-content{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	transform-style: preserve-3d;
+	transition: transform 0.8s cubic-bezier(0.75, 0, 0.85, 1);
+  }
+  .more {
+	display: none;
+  }
+  .more:checked ~ .prize-content {
+	transform: rotateY(180deg);
+  }
+  .front, .back {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	backface-visibility: hidden;
+	transform-style: preserve-3d;
+	border-radius: 6px;
+  }
+  .front .inner, .back .inner {
+	height: 100%;
+	display: grid;
+	padding: 1em;
+	transform: translateZ(80px) scale(0.94);
+  }
+  .front {
+	background-size: cover;
+	background-position: center center;
+	background: linear-gradient(180deg, rgb(0, 173, 253), rgb(206, 231, 252));
+  }
+  .front:after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: block;
+	border-radius: 6px;
+	backface-visibility: hidden;
+  }
+  .front .inner {
+	grid-template-rows: 5fr 1fr 1fr 2fr 1fr;
+	justify-items: center;
+  }
+  .front h2 {
+	grid-row: 2;
+	margin-bottom: 0.3em;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	color: #fff;
+	font-weight: 500;
+	}
+	
+  .back {
+	transform: rotateY(180deg);
+	background-color: #fff;
+	border: 2px solid #f0f0f0;
+  }
+  .back .inner {
+	grid-template-rows: 1fr 2fr 1fr 2fr 14fr 1fr 1fr;
+	grid-template-columns: repeat(4, auto);
+	grid-column-gap: 0.5em;
+	justify-items: center;
+  }
+  .back .info {
+	position: relative;
+	display: flex;
+	align-items: center;
+	color: #355cc9;
+	grid-row: 3;
+  }
+  .back .info:not(:first-of-type):before {
+	content: '';
+	position: absolute;
+	left: -0.9em;
+	height: 18px;
+	width: 1px;
+	background-color: #ccc;
+  }
+  .back .info span {
+	font-size: 2em;
+	font-weight: 700;
+  }
+  .back .info i {
+	font-size: 1.2em;
+  }
+  .back .info i:before {
+	background: linear-gradient(40deg, #355cc9, #438af3);
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+  }
+  .back .info .icon {
+	margin-left: 0.3em;
+  }
+  .back .info .icon span {
+	display: block;
+	margin-top: -0.25em;
+	font-size: 0.8em;
+	font-weight: 600;
+	white-space: nowrap;
+  }
+  .back .description {
+	grid-row: 5;
+	grid-column: 1/-1;
+	font-size: 1.02em;
+	border-radius: 2px;
+	font-weight: 600;
+	line-height: 1.4em;
+	overflow: auto;
+	color: #355cc9;
+	padding-right: 10px;
+  }
+  .back .location, .back .price {
+	font-weight: 600;
+	color: #355cc9;
+	grid-row: 1;
+	font-size: 0.86em;
+  }
+  .back .location {
+	grid-column: 1/3;
+	justify-self: left;
+  }
+  .back .price {
+	grid-column: 3/-1;
+	justify-self: right;
+  }
+  .back .prize-button {
+	grid-column: 1/-1;
+	justify-self: center;
+  }
+  .prize-button {
+	grid-row: -1;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 600;
+	cursor: pointer;
+	display: block;
+	padding: 0 1.5em;
+	height: 3em;
+	line-height: 2.9em;
+	min-width: 3em;
+	background-color: transparent;
+	border: solid 2px #fff;
+	color: #fff;
+	border-radius: 4px;
+	text-align: center;
+	left: 50%;
+	backface-visibility: hidden;
+	transition: 0.3s ease-in-out;
+	text-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+  }
+  .prize-button:hover {
+	background-color: #fff;
+	box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+	text-shadow: none;
+	color: #355cc9;
+  }
+  .prize-button.return {
+	line-height: 3em;
+	color: #355cc9;
+	border-color: #355cc9;
+	text-shadow: none;
+  }
+  .prize-button.return:hover {
+	background-color: #355cc9;
+	color: #fff;
+	box-shadow: none;
+  }
+  ::-webkit-scrollbar {
+	width: 5px;
+  }
+  ::-webkit-scrollbar-track {
+	background: #f1f1f1;
+  }
+  ::-webkit-scrollbar-thumb {
+	background: #859ddf;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+	background: #355cc9;
+  }
+  
+  .ticket-icon img {
+    max-height: 130px; 
+	}
+	
+	.api-icon img {
+    max-height: 150px; 
+  }
+
+  .ticket-plan {
+    background-color: #df42b1;
+		padding: 10px 25px;
+		height:45px;
+    display: inline-block;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #ffffff;
+    border-radius: 0 0 5px 5px;
+    margin-bottom: 20px;
+		line-height: 1;
+		font-size:1.4em; 
+		text-shadow: 1px 1px black;
+	}
+	
+	.api-plan {
+		padding: 10px 25px;
+		height:38px;
+    display: inline-block;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+		color: white;
+    background: black;
+    border-radius: 0 0 5px 5px;
+		line-height: 1; 
+		font-size: 1.2em;
+		text-shadow: .7px .7px black;
+  }
+
+/* 	
+	style="font-size: 1.4em !important;" */
+  .ticket-price {
+		
+		text-shadow: .7px .7px black;
+    font-size: 30px;
+    color: black !important;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 1; 
+    padding-top:12px;
+		padding-bottom:12px;
+	}
+	
+	.api-price {
+    font-size: 15px;
+    color: black !important;
+    font-weight: 600;
+    letter-spacing: 1px;
+		line-height: 1; 
+		
+	}
+
+	
+	
+/*------------------------------------------------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------------------------------------------------------*/
