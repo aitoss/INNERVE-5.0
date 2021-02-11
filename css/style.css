@@ -1369,7 +1369,7 @@ a.btn-approach:hover:before {
 
 .sponsor-card {
     border-radius: 5px;
-    height: 200px;
+    height: 150px;
     transition: 0.6s;
 }
 
@@ -1395,7 +1395,7 @@ a.btn-approach:hover:before {
     }
     .sponsor-card {
         border-radius: 5px;
-        height: 150px;
+        height: 100px;
         transition: 0.6s;
     }
     .sponsor-card:hover {
