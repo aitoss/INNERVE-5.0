@@ -2732,13 +2732,13 @@ svg {
   .front .inner, .back .inner {
 	height: 100%;
 	display: grid;
-	padding: 1em;
+	padding: 0.5em;
 	transform: translateZ(80px) scale(0.94);
   }
   .front {
 	background-size: cover;
 	background-position: center center;
-	background: linear-gradient(180deg, rgb(8, 7, 48), rgb(223, 227, 230));
+	background: #909bd9;
   }
   .front:after {
 	content: '';
@@ -2752,7 +2752,7 @@ svg {
 	backface-visibility: hidden;
   }
   .front .inner {
-	grid-template-rows: 5fr 1fr 1fr 2fr 1fr;
+	grid-template-rows: 5fr 1fr 2fr;
 	justify-items: center;
   }
   .front h2 {
@@ -2766,11 +2766,10 @@ svg {
 	
   .back {
 	transform: rotateY(180deg);
-	background-color: #fff;
-	border: 2px solid #f0f0f0;
+    background:white;
   }
   .back .inner {
-	grid-template-rows: 1fr 2fr 1fr 2fr 14fr 1fr 1fr;
+	grid-template-rows: 1fr 2fr 14fr 2fr;
 	grid-template-columns: repeat(4, auto);
 	grid-column-gap: 0.5em;
 	justify-items: center;
@@ -2813,7 +2812,7 @@ svg {
 	white-space: nowrap;
   }
   .back .description {
-	grid-row: 5;
+	grid-row: 3;
 	grid-column: 1/-1;
 	font-size: 1.02em;
 	border-radius: 2px;
