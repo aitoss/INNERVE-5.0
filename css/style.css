@@ -1404,14 +1404,17 @@ a.btn-approach:hover:before {
 }
 
 @media all and (max-width:768px) {
-    .ftimg {
-        width: 85% !important;
-    }
-    .udchaloimg {
+    .titleImg {
         width: 100% !important;
     }
-    .saSirimg {
+    .coImg {
         width: 90% !important;
+    }
+    .subImg {
+        width: 90% !important;
+    }
+    .ftimg {
+        width: 85% !important;
     }
     .assimg {
         width: 80% !important;
