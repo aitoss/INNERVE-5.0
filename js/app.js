@@ -91,24 +91,24 @@ const changeFaqIcon = (id) => {
 }
 
 
-$(document).ready(function () {
+// $(document).ready(function () {
 
-    // process the form
-    $('form').submit(function (event) {
-        var formData = {
-            'email': $('input[name=email]').val(),
-        };
-        $.ajax({
-            type: 'POST',
-            url: 'https://aitoss.club/api/v1/innerveReminder',
-            data: formData,
-            dataType: 'json',
-            encode: true
-        })
-            .done(function (data) {
-                console.log(data);
-            });
-        event.preventDefault();
-    });
+//     // process the form
+//     $('form').submit(function (event) {
+//         var formData = {
+//             'email': $('input[name=email]').val(),
+//         };
+//         $.ajax({
+//             type: 'POST',
+//             url: 'https://aitoss.club/api/v1/innerveReminder',
+//             data: formData,
+//             dataType: 'json',
+//             encode: true
+//         })
+//             .done(function (data) {
+//                 console.log(data);
+//             });
+//         event.preventDefault();
+//     });
 
-});
+// });
