@@ -2735,7 +2735,7 @@ svg {
   .front {
 	background-size: cover;
 	background-position: center center;
-	background: linear-gradient(180deg, rgb(0, 173, 253), rgb(206, 231, 252));
+	background: linear-gradient(180deg, rgb(8, 7, 48), rgb(223, 227, 230));
   }
   .front:after {
 	content: '';
@@ -2795,7 +2795,7 @@ svg {
 	font-size: 1.2em;
   }
   .back .info i:before {
-	background: linear-gradient(40deg, #355cc9, #438af3);
+	background: linear-gradient(40deg, #142042, #bfc6cf);
 	-webkit-text-fill-color: transparent;
 	-webkit-background-clip: text;
   }
@@ -2872,7 +2872,7 @@ svg {
 	text-shadow: none;
   }
   .prize-button.return:hover {
-	background-color: #355cc9;
+	background-color: #132555;
 	color: #fff;
 	box-shadow: none;
   }
