@@ -507,7 +507,7 @@ body.nav-active .nav__list-item:nth-child(7) {
     background: linear-gradient(105.22deg, #5C6BC0 -54.96%, #18298A 162.84%);
     backdrop-filter: blur(46px);
     border-radius: 5px;
-    height: 3.3em;
+    height: 3.2em;
     max-width: 48%;
 }
 
@@ -531,7 +531,7 @@ body.nav-active .nav__list-item:nth-child(7) {
 
 iframe.devfolio-button-iframe {
     transform: scale(1.25);
-    margin-top: 1.3em !important;
+    margin-top: 1.25em !important;
 }
 @media screen and (min-width: 1000px) and (max-width: 1300px) {
     .home-box1 {
