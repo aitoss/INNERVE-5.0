@@ -2513,30 +2513,6 @@ body.load-anime .anime-4 {
 }
 
 
-/* scroll bar */
-
-::-webkit-scrollbar {
-    width: 5px
-}
-
-::-webkit-scrollbar-track {
-    border-radius: 10px
-}
-
-::-webkit-scrollbar-thumb {
-    background: blue;
-    opacity: 0.7;
-    border-radius: 3px
-}
-
-::-webkit-scrollbar-thumb:hover {
-    background: blue;
-}
-
-svg {
-    fill-opacity: 100%;
-}
-
 
 /* clock */
 
@@ -2879,18 +2855,6 @@ svg {
 	color: #fff;
 	box-shadow: none;
   }
-  ::-webkit-scrollbar {
-	width: 5px;
-  }
-  ::-webkit-scrollbar-track {
-	background: #132555;
-  }
-  ::-webkit-scrollbar-thumb {
-	background: #ffffff;
-  }
-  ::-webkit-scrollbar-thumb:hover {
-	background: #355cc9;
-  }
   
   .ticket-icon img {
     max-height: 130px; 
@@ -2956,3 +2920,25 @@ svg {
 	
 /*------------------------------------------------------------------------------------------------------------------------------------*/
 /*------------------------------------------------------------------------------------------------------------------------------------*/
+
+/* scroll bar */
+
+::-webkit-scrollbar {
+    width: 5px
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 10px
+}
+
+::-webkit-scrollbar-thumb {
+    background: blue;
+    opacity: 0.7;
+    border-radius: 3px
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: blue;
+}
+
+
