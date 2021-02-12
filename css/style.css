@@ -1405,16 +1405,22 @@ a.btn-approach:hover:before {
         width: 100% !important;
     }
     .coImg {
-        width: 90% !important;
+        width: 110% !important;
     }
     .subImg {
+        width: 90% !important;
+    }
+    .supImg{
+        width: 90% !important;
+    }
+    .coPImg{
         width: 90% !important;
     }
     .ftimg {
         width: 85% !important;
     }
     .assimg {
-        width: 80% !important;
+        width: 70% !important;
     }
 }
 
