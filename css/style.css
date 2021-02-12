@@ -3,14 +3,11 @@
     --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace
 }
 
-* {
+/* * {
     -webkit-user-select: none;
-    /* Safari */
     -ms-user-select: none;
-    /* IE 10 and IE 11 */
     user-select: none;
-    /* Standard syntax */
-}
+} */
 
 html {
     font-family: sans-serif;
