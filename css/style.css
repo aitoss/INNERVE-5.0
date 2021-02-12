@@ -2742,8 +2742,9 @@ body.load-anime .anime-4 {
 	
   .back {
 	transform: rotateY(180deg);
-    background-color: #202330;
-    border: 2px solid #0097fb26;
+    background-color: white;
+    /* background-color: #202330;
+    border: 2px solid #0097fb26; */
   }
   .back .inner {
 	grid-template-rows: 1fr 2fr 14fr 2fr;
@@ -2793,15 +2794,15 @@ body.load-anime .anime-4 {
 	grid-column: 1/-1;
 	font-size: 0.8em;
 	border-radius: 2px;
-	font-weight: 300;
+	font-weight: 600;
 	line-height: 1em;
 	overflow: auto;
-	color:#ffffffa3;
+	color:#355cc9;
 	padding-right: 10px;
   }
   .back .location, .back .price {
 	font-weight: 600;
-	color: #ffffff;
+	color: #355cc9;
 	grid-row: 1;
 	font-size: 0.86em;
   }
@@ -2846,8 +2847,8 @@ body.load-anime .anime-4 {
   }
   .prize-button.return {
 	line-height: 3em;
-	color: #ffffff;
-	border-color:#ffffff;
+	color: #355cc9;
+	border-color:#355cc9;
 	text-shadow: none;
   }
   .prize-button.return:hover {
