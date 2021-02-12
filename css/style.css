@@ -2654,7 +2654,7 @@ body.load-anime .anime-4 {
 
 @media only screen and (max-width: 780px) {
 	.prize-step{
-		padding-top : 0px !important; 
+		padding-top : 0px !important;
 	}
 }
 
@@ -2663,7 +2663,7 @@ body.load-anime .anime-4 {
 	flex-flow: row wrap;
 	justify-content: center;
 	}
-	
+
   .prize-card {
 		-webkit-transition-duration: 300ms;
     -o-transition-duration: 300ms;
@@ -2676,7 +2676,7 @@ body.load-anime .anime-4 {
 		width: 350px;
 		height: 340px;
 	}
-	
+
 	.api-card-size {
 		width: 265px;
 		height: 320px;
@@ -2714,7 +2714,7 @@ body.load-anime .anime-4 {
   .front {
 	background-size: cover;
 	background-position: center center;
-	background: #909bd9;
+	background: #ffffff;
   }
   .front:after {
 	content: '';
@@ -2739,7 +2739,7 @@ body.load-anime .anime-4 {
 	color: #fff;
 	font-weight: 500;
 	}
-	
+
   .back {
 	transform: rotateY(180deg);
     background-color: white;
@@ -2856,13 +2856,13 @@ body.load-anime .anime-4 {
 	color: #fff;
 	box-shadow: none;
   }
-  
+
   .ticket-icon img {
-    max-height: 130px; 
+    max-height: 130px;
 	}
-	
+
 	.api-icon img {
-    max-height: 150px; 
+    max-height: 150px;
   }
 
   .ticket-plan {
@@ -2876,10 +2876,10 @@ body.load-anime .anime-4 {
     border-radius: 0 0 5px 5px;
     margin-bottom: 20px;
 		line-height: 1;
-		font-size:1.4em; 
+		font-size:1.4em;
 		text-shadow: 1px 1px black;
 	}
-	
+
 	.api-plan {
 		padding: 10px 25px;
 		height:38px;
@@ -2889,36 +2889,36 @@ body.load-anime .anime-4 {
 		color: white;
     background: black;
     border-radius: 0 0 5px 5px;
-		line-height: 1; 
+		line-height: 1;
 		font-size: 1.2em;
 		text-shadow: .7px .7px black;
   }
 
-/* 	
+/*
 	style="font-size: 1.4em !important;" */
   .ticket-price {
-		
+
 		text-shadow: .7px .7px black;
     font-size: 30px;
     color: black !important;
     font-weight: 700;
     letter-spacing: 1px;
-    line-height: 1; 
+    line-height: 1;
     padding-top:12px;
 		padding-bottom:12px;
 	}
-	
+
 	.api-price {
     font-size: 15px;
     color: black !important;
     font-weight: 600;
     letter-spacing: 1px;
-		line-height: 1; 
-		
+		line-height: 1;
+
 	}
 
-	
-	
+
+
 /*------------------------------------------------------------------------------------------------------------------------------------*/
 /*------------------------------------------------------------------------------------------------------------------------------------*/
 
@@ -2941,5 +2941,3 @@ body.load-anime .anime-4 {
 ::-webkit-scrollbar-thumb:hover {
     background: blue;
 }
-
-

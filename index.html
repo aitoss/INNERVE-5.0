@@ -75,12 +75,10 @@
         (function (d, s, id) {
             var js, fjs = d.getElementsByTagName(s)[0];
             if (d.getElementById(id)) return;
-            js = d.createElement(s);
-            js.id = id;
+            js = d.createElement(s); js.id = id;
             js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
             fjs.parentNode.insertBefore(js, fjs);
-        }(document, 'script', 'facebook-jssdk'));
-    </script>
+        }(document, 'script', 'facebook-jssdk'));</script>
 
     <!-- Your Chat Plugin code -->
     <div class="fb-customerchat" attribution="setup_tool" page_id="1018967011534840" theme_color="#007bff"
@@ -460,8 +458,9 @@
                                     <div class="inner">
                                         <h6 class="api-plan">echoAR</h6>
                                         <div class="api-icon">
-                                            <img style="width:200px; height:auto; margin-bottom:17px; margin-top:35px"
-                                                src="./assets/img/echoAR2020.webp" alt="echoAR">
+                                            <img style="width:200px; height:auto; margin-bottom:17px; margin-top:35px;overflow:hidden;"
+                                                src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/EchoAR_brand_logo_2.webp/386px-EchoAR_brand_logo_2.webp.png"
+                                                alt="echoAR">
                                         </div>
                                         <div>
                                             <h2 class="ticket-price" style="color:black !important">
