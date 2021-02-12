@@ -1369,7 +1369,7 @@ a.btn-approach:hover:before {
 
 .sponsor-card {
     border-radius: 5px;
-    height: 200px;
+    height: 150px;
     transition: 0.6s;
 }
 
@@ -1395,7 +1395,7 @@ a.btn-approach:hover:before {
     }
     .sponsor-card {
         border-radius: 5px;
-        height: 150px;
+        height: 100px;
         transition: 0.6s;
     }
     .sponsor-card:hover {
@@ -2513,30 +2513,6 @@ body.load-anime .anime-4 {
 }
 
 
-/* scroll bar */
-
-::-webkit-scrollbar {
-    width: 5px
-}
-
-::-webkit-scrollbar-track {
-    border-radius: 10px
-}
-
-::-webkit-scrollbar-thumb {
-    background: blue;
-    opacity: 0.7;
-    border-radius: 3px
-}
-
-::-webkit-scrollbar-thumb:hover {
-    background: blue;
-}
-
-svg {
-    fill-opacity: 100%;
-}
-
 
 /* clock */
 
@@ -2766,7 +2742,8 @@ svg {
 	
   .back {
 	transform: rotateY(180deg);
-    background:white;
+    background-color: #202330;
+    border: 2px solid #0097fb26;
   }
   .back .inner {
 	grid-template-rows: 1fr 2fr 14fr 2fr;
@@ -2814,17 +2791,17 @@ svg {
   .back .description {
 	grid-row: 3;
 	grid-column: 1/-1;
-	font-size: 1.02em;
+	font-size: 0.8em;
 	border-radius: 2px;
-	font-weight: 600;
-	line-height: 1.4em;
+	font-weight: 300;
+	line-height: 1em;
 	overflow: auto;
-	color: #355cc9;
+	color:#ffffffa3;
 	padding-right: 10px;
   }
   .back .location, .back .price {
 	font-weight: 600;
-	color: #355cc9;
+	color: #ffffff;
 	grid-row: 1;
 	font-size: 0.86em;
   }
@@ -2869,26 +2846,14 @@ svg {
   }
   .prize-button.return {
 	line-height: 3em;
-	color: #355cc9;
-	border-color: #355cc9;
+	color: #ffffff;
+	border-color:#ffffff;
 	text-shadow: none;
   }
   .prize-button.return:hover {
 	background-color: #132555;
 	color: #fff;
 	box-shadow: none;
-  }
-  ::-webkit-scrollbar {
-	width: 5px;
-  }
-  ::-webkit-scrollbar-track {
-	background: #f1f1f1;
-  }
-  ::-webkit-scrollbar-thumb {
-	background: #859ddf;
-  }
-  ::-webkit-scrollbar-thumb:hover {
-	background: #355cc9;
   }
   
   .ticket-icon img {
@@ -2955,3 +2920,25 @@ svg {
 	
 /*------------------------------------------------------------------------------------------------------------------------------------*/
 /*------------------------------------------------------------------------------------------------------------------------------------*/
+
+/* scroll bar */
+
+::-webkit-scrollbar {
+    width: 5px
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 10px
+}
+
+::-webkit-scrollbar-thumb {
+    background: blue;
+    opacity: 0.7;
+    border-radius: 3px
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: blue;
+}
+
+
