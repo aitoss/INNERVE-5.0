@@ -112,3 +112,47 @@ const changeFaqIcon = (id) => {
 //     });
 
 // });
+
+
+const persons = [
+    {
+        name: "Rohan Chougule",
+        photo: "https://media-exp1.licdn.com/dms/image/C5103AQGaCgq3V23bRw/profile-displayphoto-shrink_200_200/0/1585481116896?e=1618444800&v=beta&t=Y6SLSW9bqhZ_4yaprM5PoqqmU1sJzZd9rSyGIu4N7MI",
+        title: "Browserstack",
+        link: "https://www.linkedin.com/in/rohan-chougule/"
+    },
+
+    {
+        name: "Swastik Shrivastava",
+        photo: "https://media-exp1.licdn.com/dms/image/C5603AQEeXkpgCjMc2w/profile-displayphoto-shrink_200_200/0/1516499176018?e=1618444800&v=beta&t=5PUlEG5_N5sgFIM3i-BGvoiIGx0tQ8lT3215mq9AwBk",
+        title: "Mobile Premier League",
+        link: "https://www.linkedin.com/in/rohan-chougule/"
+    },
+    {
+        name: "Rajat Rawat",
+        photo: "https://media-exp1.licdn.com/dms/image/C5603AQHX_duNoLrvtQ/profile-displayphoto-shrink_200_200/0/1517025545916?e=1618444800&v=beta&t=WhzeV22ofIIVOTxncX7c3W50mHBV-8CM7onp8A7OoNE",
+        title: "Flipkart",
+        link: "https://www.linkedin.com/in/rohan-chougule/"
+    },
+    {
+        name: "Anirudh Murali",
+        photo: "https://media-exp1.licdn.com/dms/image/C5103AQGKWgb7lxo47w/profile-displayphoto-shrink_200_200/0/1566639617441?e=1618444800&v=beta&t=5mpOosCtfAk11uJPX2c3frmWrbKCkB2xB7Z89PUdBzY",
+        title: "ZS Associates",
+        link: "https://www.linkedin.com/in/rohan-chougule/"
+    }
+];
+
+const app = new Vue({
+    el: "#app",
+    data() {
+        return {
+            persons: persons,
+            selectedPersonIndex: null,
+            isSelected: false,
+            selectedPerson: null,
+            // inlineStyles: null,
+            isReady: false,
+            isOk: false
+        };
+    }
+});

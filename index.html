@@ -58,6 +58,8 @@
 
         gtag('config', 'UA-188441075-2');
     </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.3.4/vue.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue-resource/1.2.1/vue-resource.min.js"></script>
     <script defer async src="https://apply.devfolio.co/v2/sdk.js"></script>
 </head>
 
@@ -969,6 +971,32 @@
         <!-------------------------------------------------- FAQ Section ------------------------------------------------------>
 
 
+        <!---------------------------------------------------- Judges Section ------------------------------------------------------->
+        <div class="container-fluid speaker-main " id="navspeaker ">
+            <div class="container mb-4 ">
+                <h2 class="mb-5 " style="text-align: center; ">Our Judges</h2>
+            </div>
+            <div class="container" id="app">
+                <div class="team-container">
+                    <div class="person-list">
+                        <a :href="person.link" class="person" v-for="(person,index) in persons">
+                            <img class="person-img" :src="person.photo">
+                            <div class="person-details">
+                                <div class="row">
+                                    <img src="./assets/img/linkedin.svg" alt="">
+                                </div>
+                                <h2 class="person-title">{{person.name}}</h2>
+                                <p class="person-desc">{{person.title}}</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!---------------------------------------------------- Judges Section ------------------------------------------------------->
+
+
         <!---------------------------------------------------- Speaker Section ------------------------------------------------------->
 
         <div class="container-fluid speaker-main " id="navspeaker ">
@@ -977,7 +1005,7 @@
             </div>
             <div class="row justify-content-center ">
                 <div class="col-md-10 d-flex flex-row flex-wrap justify-content-around ">
-                    <div class="col-md-4 speaker-card text-center ">
+                    <div class="col-md-4 speaker-card speaker-blur text-center phone-none ">
                         <a href="# ">
                             <div class="col-12 pb-3 "><img class="speaker-img " src="./assets/img/dummy.png " alt=" ">
                             </div>
@@ -987,17 +1015,18 @@
                             <img class="card-arrow " src="./assets/img/right-arrow.svg "></img>
                         </a>
                     </div>
-                    <div class="col-md-4 speaker-card text-center phone-none ">
-                        <a href="# ">
-                            <div class="col-12 pb-3 "><img class="speaker-img " src="./assets/img/dummy1.jpeg " alt=" ">
+                    <div class="col-md-4 speaker-card text-center ">
+                        <a href="https://www.linkedin.com/in/tamanjit/">
+                            <div class="col-12 pb-3 "><img class="speaker-img " src="./assets/Speaker/tamanjitSir.jpeg"
+                                    alt=" ">
                             </div>
-                            <h4>John Doe</h4>
-                            <p>CEO, FAAMG
-                            </p>
-                            <img class="card-arrow " src="./assets/img/right-arrow.svg "></img>
+                            <h4>Tamanjit Bindra</h4>
+                            <p>Co-Founder</p>
+                            <p>Kaagaz Scanner</p>
+                            <img class="card-arrow" src="./assets/img/right-arrow.svg "></img>
                         </a>
                     </div>
-                    <div class="col-md-4 speaker-card text-center phone-none ">
+                    <div class="col-md-4 speaker-card speaker-blur text-center phone-none ">
                         <a href="# ">
                             <div class="col-12 pb-3 "><img class="speaker-img " src="./assets/img/dummy2.png " alt=" ">
                             </div>
@@ -1091,23 +1120,27 @@
                         </div>
                     </div>
 
-                    <div class="col-md-12 p-3 d-flex flex-row flex-wrap">
-                        <a href="https://matic.network/" target="_blank " class="col-md-4 ">
+                    <div class="col-md-12 p-3 d-flex flex-row flex-wrap justify-content-center">
+                        <a href="https://kaagaz.app/" target="_blank " class="col-6">
                             <div class="col-md-12 justify-content-around d-flex align-items-center sponsor-card ">
-                                <img class="supImg" src="./assets/sponsors/matic.png " alt="matic"
-                                    style="width: 100%; ">
+                                <img class="supImg" src="./assets/sponsors/kaagaz.png " alt="kaagaz"
+                                    style="width: 60%; ">
                             </div>
                         </a>
-                        <a href="https://www.portis.io/" target="_blank " class="col-md-4 ">
+                        <a href="https://matic.network/" target="_blank " class="col-6">
                             <div class="col-md-12 justify-content-around d-flex align-items-center sponsor-card ">
-                                <img class="supImg" src="./assets/sponsors/portis.png " alt="portis"
-                                    style="width: 100%; ">
+                                <img class="supImg" src="./assets/sponsors/matic.png " alt="matic" style="width: 60%; ">
                             </div>
                         </a>
-                        <a href="https://tezos.com/" target="_blank " class="col-md-4 ">
+                        <a href="https://www.portis.io/" target="_blank " class="col-6">
+                            <div class=" col-md-12 justify-content-around d-flex align-items-center sponsor-card ">
+                                <img class=" supImg" src="./assets/sponsors/portis.png " alt="portis"
+                                    style="width: 60%; ">
+                            </div>
+                        </a>
+                        <a href="https://tezos.com/" target="_blank " class="col-6">
                             <div class="col-md-12 justify-content-around d-flex align-items-center sponsor-card ">
-                                <img class="supImg" src="./assets/sponsors/tezos.png " alt="tezos"
-                                    style="width: 100%; ">
+                                <img class="supImg" src="./assets/sponsors/tezos.png " alt="tezos" style="width: 60%; ">
                             </div>
                         </a>
                         <div class="col-md-12 text-center mt-2 " style="height: 20px; ">
@@ -1138,58 +1171,58 @@
                 </div>
                 <div class="col-md-12 p-3 d-flex flex-row flex-wrap justify-content-center ">
 
-                    <a href="https://caffetable.com/" target="_blank " class="col-md-3">
+                    <a href="https://caffetable.com/" target="_blank " class="col-md-3 col-6">
                         <div class="col-md-12 justify-content-around d-flex align-items-center sponsor-card ">
                             <img class="assimg" src="./assets/sponsors/caffetable.png " alt="Caffetable"
                                 style="width: 100%; ">
                         </div>
                     </a>
-                    <a href="https://www.taskade.com/ " target="_blank " class="col-md-3">
+                    <a href="https://www.taskade.com/ " target="_blank " class="col-md-3 col-6">
                         <div class="col-md-12 justify-content-around d-flex align-items-center sponsor-card ">
                             <img class="assimg" src="./assets/sponsors/taskade.jpg " alt="taskade "
                                 style="width: 100%; ">
                         </div>
                     </a>
-                    <a href="https://balsamiq.com/ " target="_blank " class="col-md-3 ">
+                    <a href="https://balsamiq.com/ " target="_blank " class="col-md-3 col-6 ">
                         <div class="col-md-12 justify-content-around d-flex align-items-center sponsor-card ">
                             <img class="assimg" src="./assets/sponsors/balsamiq.png " alt="balsamiq "
                                 style="width: 100%; ">
                         </div>
                     </a>
-                    <a href="https://www.voiceflow.com/ " target="_blank " class="col-md-3 ">
+                    <a href="https://www.voiceflow.com/ " target="_blank " class="col-md-3 col-6 ">
                         <div
                             class="col-md-12 justify-content-around align-items-center d-flex align-items-center sponsor-card ">
                             <img class="assimg" src="./assets/sponsors/voiceflow.png" alt="voiceflow "
                                 style="width: 100%;">
                         </div>
                     </a>
-                    <a href="https://www.sketch.com/ " target="_blank " class="col-md-3 ">
+                    <a href="https://www.sketch.com/ " target="_blank " class="col-md-3 col-6 ">
                         <div class="col-md-12 justify-content-around d-flex align-items-center sponsor-card ">
                             <img class="assimg" src="./assets/sponsors/sketch.png " alt="sketch " style="width: 100%; ">
                         </div>
                     </a>
-                    <a href="https://repl.it/ " target="_blank " class="col-md-3 ">
+                    <a href="https://repl.it/ " target="_blank " class="col-md-3 col-6 ">
                         <div class="col-md-12 justify-content-around d-flex align-items-center sponsor-card ">
                             <img class="assimg" src="./assets/sponsors/repl.png " alt="repl.it " style="width: 100%; ">
                         </div>
                     </a>
-                    <a href="https://www.axure.com/ " target="_blank " class="col-md-3 ">
+                    <a href="https://www.axure.com/ " target="_blank " class="col-md-3 col-6 ">
                         <div class="col-md-12 justify-content-around d-flex align-items-center sponsor-card ">
                             <img class="assimg" src="./assets/sponsors/axure.png " alt="axure " style="width: 100%; ">
                         </div>
                     </a>
-                    <a href="https://givemycertificate.com/" target="_blank " class="col-md-3 ">
+                    <a href="https://givemycertificate.com/" target="_blank " class="col-md-3 col-6 ">
                         <div class="col-md-12 justify-content-around d-flex align-items-center sponsor-card ">
                             <img class="assimg" src="./assets/sponsors/certificate.png " alt="Give My Certificate"
                                 style="width: 100%; ">
                         </div>
                     </a>
-                    <a href="https://www.echoar.xyz/" target="_blank " class="col-md-3 ">
+                    <a href="https://www.echoar.xyz/" target="_blank " class="col-md-3 col-6 ">
                         <div class="col-md-12 justify-content-around d-flex align-items-center sponsor-card ">
                             <img class="assimg" src="./assets/sponsors/echoAR.png " alt="echoAR" style="width: 100%; ">
                         </div>
                     </a>
-                    <a href="https://www.instagram.com/chocokaju/ " target="_blank" class="col-md-3 ">
+                    <a href="https://www.instagram.com/chocokaju/ " target="_blank" class="col-md-3 col-6 ">
                         <div class="col-md-12 justify-content-around d-flex align-items-center sponsor-card ">
                             <img class="assimg" src="./assets/sponsors/chocokaju.png " alt="chocokaju"
                                 style="width: 100%; ">

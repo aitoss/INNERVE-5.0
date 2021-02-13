@@ -1294,6 +1294,8 @@ a.btn-approach:hover:before {
 
 .speaker-card {
     height: 320px;
+}
+.speaker-blur{
     filter: blur(4px);
 }
 
@@ -1411,7 +1413,7 @@ a.btn-approach:hover:before {
         width: 90% !important;
     }
     .supImg{
-        width: 90% !important;
+        width: 160% !important;
     }
     .coPImg{
         width: 90% !important;
@@ -1420,7 +1422,7 @@ a.btn-approach:hover:before {
         width: 85% !important;
     }
     .assimg {
-        width: 70% !important;
+        width: 140% !important;
     }
 }
 
@@ -2919,6 +2921,76 @@ body.load-anime .anime-4 {
 		line-height: 1;
 
 	}
+
+/* Judges Section */
+
+.team-container {
+    padding: 0 30px;
+    box-sizing: border-box;
+    max-width: 1400px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+  }
+  
+    .person {
+        width: calc(25% - 30px);
+        cursor: pointer;
+        overflow: hidden;
+        transition: 0.45s;
+        position: relative;
+    }
+  .person-details {
+    padding: 0 20px;
+    box-sizing: border-box;
+    margin-top: -15px;
+    transition: 0.3s;
+  }
+  .person-details img{
+      display: block !important;
+  }
+  .person-img {
+    width: 100%;
+  }
+  .person-title {
+    color: #fff;
+    font-size: 1.8em;
+  }
+  .person-desc {
+    color: rgba(255, 255, 255, 0.794);
+    margin-top: 10px;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    letter-spacing: 2px;
+  }
+  .person-list {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+  }
+  .person-list:hover .person {
+    opacity: 0.6;
+  }
+  .person:hover {
+    opacity: 1 !important;
+  }
+
+  @media (max-width: 480px) {
+    .person {
+      width: 100%;
+      margin-bottom: 50px;
+    }
+  
+    .header {
+      margin-top: 50px;
+    }
+  }
+
+/* Judges Section */
+
 
 
 
