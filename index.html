@@ -972,27 +972,28 @@
 
 
         <!---------------------------------------------------- Judges Section ------------------------------------------------------->
-        <!-- <div class="container-fluid speaker-main " id="navspeaker ">
+        <div class="container-fluid speaker-main " id="navspeaker ">
             <div class="container mb-4 ">
                 <h2 class="mb-5 " style="text-align: center; ">Our Judges</h2>
             </div>
             <div class="container" id="app">
                 <div class="team-container">
                     <div class="person-list">
-                        <a :href="person.link" class="person" v-for="(person,index) in persons">
+                        <div class="person" v-for="(person,index) in persons">
                             <img class="person-img" :src="person.photo">
                             <div class="person-details">
-                                <div class="row">
+                                <a :href="person.link" class="d-flex flex-row flex-wrap person-social">
                                     <img src="./assets/img/linkedin.svg" alt="">
-                                </div>
+                                    <!-- <img src="./assets/img/linkedin.svg" alt=""> -->
+                                </a>
                                 <h2 class="person-title">{{person.name}}</h2>
                                 <p class="person-desc">{{person.title}}</p>
                             </div>
-                        </a>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div> -->
+        </div>
 
         <!---------------------------------------------------- Judges Section ------------------------------------------------------->
 
@@ -1015,16 +1016,16 @@
                             <img class="card-arrow " src="./assets/img/right-arrow.svg "></img>
                         </a>
                     </div>
-                    <div class="col-md-4 speaker-card speaker-blur text-center ">
+                    <div class="col-md-4 speaker-card text-center ">
                         <a href="https://www.linkedin.com/in/tamanjit/">
                             <div class="col-12 pb-3 "><img class="speaker-img " src="./assets/img/dummy1.jpeg" alt=" ">
                             </div>
-                            <!-- <h4>Tamanjit Bindra</h4>
+                            <h4>Tamanjit Bindra</h4>
                             <p>Co-Founder</p>
-                            <p>Kaagaz Scanner</p> -->
-                            <h4>John Doe</h4>
+                            <p>Kaagaz Scanner</p>
+                            <!-- <h4>John Doe</h4>
                             <p>CEO, FAAMG
-                            </p>
+                            </p> -->
                             <img class="card-arrow" src="./assets/img/right-arrow.svg "></img>
                         </a>
                     </div>

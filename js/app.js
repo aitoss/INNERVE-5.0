@@ -126,19 +126,19 @@ const persons = [
         name: "Swastik Shrivastava",
         photo: "https://media-exp1.licdn.com/dms/image/C5603AQEeXkpgCjMc2w/profile-displayphoto-shrink_200_200/0/1516499176018?e=1618444800&v=beta&t=5PUlEG5_N5sgFIM3i-BGvoiIGx0tQ8lT3215mq9AwBk",
         title: "Mobile Premier League",
-        link: "https://www.linkedin.com/in/rohan-chougule/"
+        link: "https://www.linkedin.com/in/swastik-shrivastava-cse/"
     },
     {
         name: "Rajat Rawat",
         photo: "https://media-exp1.licdn.com/dms/image/C5603AQHX_duNoLrvtQ/profile-displayphoto-shrink_200_200/0/1517025545916?e=1618444800&v=beta&t=WhzeV22ofIIVOTxncX7c3W50mHBV-8CM7onp8A7OoNE",
         title: "Flipkart",
-        link: "https://www.linkedin.com/in/rohan-chougule/"
+        link: "https://www.linkedin.com/in/rajat-rawat-cse/"
     },
     {
         name: "Anirudh Murali",
         photo: "https://media-exp1.licdn.com/dms/image/C5103AQGKWgb7lxo47w/profile-displayphoto-shrink_200_200/0/1566639617441?e=1618444800&v=beta&t=5mpOosCtfAk11uJPX2c3frmWrbKCkB2xB7Z89PUdBzY",
         title: "ZS Associates",
-        link: "https://www.linkedin.com/in/rohan-chougule/"
+        link: "https://www.linkedin.com/in/anirudh-murali/"
     }
 ];
 
