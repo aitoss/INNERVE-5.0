@@ -2947,25 +2947,10 @@ body.load-anime .anime-4 {
     margin-top: -50px;
     transition: 0.3s;
   }
-  .person-social img {
-      /* display: none; */
-      z-index: -1;
-      max-width: 2em;
-      /* transition: 0.3s ease-in-out; */
-      /* margin: 0 auto; */
-
+  .person-social .person-social-img {
+      max-width: 2em !important;
+      margin: 0 0.8em;
   }
-  .person:hover .person-social img {
-    transition: 0.3s step-end;
-    display: inline-flex;
-    z-index: 20;
-    cursor: pointer;
-
-    /* transition: 1s ease-in !important; */
-  }
-  /* .person-details img{
-      display: block !important;
-  } */
   .person-img {
     width: 100%;
   }

@@ -982,10 +982,12 @@
                         <div class="person" v-for="(person,index) in persons">
                             <img class="person-img" :src="person.photo">
                             <div class="person-details">
-                                <a :href="person.link" class="d-flex flex-row flex-wrap person-social">
-                                    <img src="./assets/img/linkedin.svg" alt="">
-                                    <!-- <img src="./assets/img/linkedin.svg" alt=""> -->
-                                </a>
+                                <div class="d-flex flex-row flex-wrap person-social">
+                                    <a :href="person.link.linkedin"><img class="person-social-img"
+                                            src="./assets/img/linkedin.svg" alt=""></a>
+                                    <a :href="person.link.twitter"><img class="person-social-img"
+                                            src="./assets/img/twitter-full.svg" alt=""></a>
+                                </div>
                                 <h2 class="person-title">{{person.name}}</h2>
                                 <p class="person-desc">{{person.title}}</p>
                             </div>
