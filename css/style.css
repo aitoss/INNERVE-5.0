@@ -1034,6 +1034,10 @@ iframe.devfolio-button-iframe {
     height: 100%;
     width: 75%;
 }
+.img-quiz img {
+    height: 100%;
+    width: 75%;
+}
 
 .carousel-indicators li {
     height: 5px;
@@ -1087,6 +1091,11 @@ iframe.devfolio-button-iframe {
     }
     .quiz-btn{
         justify-content: center;
+    }
+    .img-quiz img {
+        width: 80%;
+        transform: scale(1.3);
+        margin-bottom: 1em;
     }
 }
 
@@ -1445,10 +1454,10 @@ a.btn-approach:hover:before {
 
 @media all and (max-width:768px) {
     .titleImg {
-        width: 100% !important;
+        width: 110% !important;
     }
     .coImg {
-        width: 110% !important;
+        width: 120% !important;
     }
     .subImg {
         width: 85% !important;
@@ -1463,7 +1472,7 @@ a.btn-approach:hover:before {
         width: 85% !important;
     }
     .assimg {
-        width: 140% !important;
+        width: 150% !important;
     }
 }
 
