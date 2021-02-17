@@ -1030,9 +1030,13 @@ iframe.devfolio-button-iframe {
     width: 100%;
 }
 
-.img-themes img {
-    height: 100%;
-    width: 75%;
+.img-themes{
+    text-align: center;
+}
+.img-themes img{
+    /* height: 100%; */
+    width: 80%;
+    text-align: center;
 }
 .img-quiz img {
     height: 100%;
