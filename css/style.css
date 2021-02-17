@@ -1024,17 +1024,15 @@ iframe.devfolio-button-iframe {
 }
 
 .carousel-item {
-    height: 600px;
     width: 100%;
 }
 .quiz-carousel-item {
-    height: 600px;
     width: 100%;
 }
 
 .img-themes img {
     height: 100%;
-    width: 100%;
+    width: 75%;
 }
 
 .carousel-indicators li {
@@ -1084,7 +1082,6 @@ iframe.devfolio-button-iframe {
         justify-content: center;
     }
     .quiz-carousel-item {
-        height: 600px !important;
         width: 100%;
         justify-content: center;
     }
@@ -1972,7 +1969,6 @@ a.btn-approach:hover:before {
         font-size: 24px;
     }
     .carousel-item {
-        height: 600px;
         width: 100%;
     }
 }
@@ -2978,7 +2974,7 @@ body.load-anime .anime-4 {
     flex-wrap: wrap;
     height: auto;
   }
-  
+
     .person {
         width: calc(25% - 30px);
         overflow: hidden;
@@ -3027,7 +3023,7 @@ body.load-anime .anime-4 {
       width: 100%;
       margin-bottom: 50px;
     }
-  
+
     .header {
       margin-top: 50px;
     }
