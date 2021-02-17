@@ -993,6 +993,30 @@ iframe.devfolio-button-iframe {
     font-size: 1em;
 }
 
+.quiz-button{
+    padding:0.5em 2em;
+    border-radius:5px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:600;
+}
+#hashmap-quiz{
+    color:#163D9E;
+    background-color: #fff;
+}
+#hashmap-quiz:hover{
+    color:#163D9E;
+    background-color: #fff;
+}
+#figmd-quiz{
+    color:#130421;
+    background-color: #CDA9CE;
+}
+#figmd-quiz:hover{
+    color:#130421;
+    background-color: #CDA9CE;
+}
+
 .text-type-1 h3,
 .text-type-1 p {
     text-align: right;
@@ -1000,6 +1024,10 @@ iframe.devfolio-button-iframe {
 }
 
 .carousel-item {
+    height: 600px;
+    width: 100%;
+}
+.quiz-carousel-item {
     height: 600px;
     width: 100%;
 }
@@ -1046,6 +1074,22 @@ iframe.devfolio-button-iframe {
     .themes-text p {
         font-size: 0.9em;
         justify-content: space-between;
+    }
+    .quiz-text p {
+        font-size: 0.8em;
+        justify-content: space-between;
+    }
+    .quiz-text h1 {
+        font-size: 2.1em;
+        justify-content: center;
+    }
+    .quiz-carousel-item {
+        height: 450px !important;
+        width: 100%;
+        justify-content: center;
+    }
+    .quiz-btn{
+        justify-content: center;
     }
 }
 
