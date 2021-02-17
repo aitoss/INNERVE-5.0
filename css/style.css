@@ -2993,7 +2993,7 @@ body.load-anime .anime-4 {
   }
   .person-social .person-social-img {
       max-width: 2em !important;
-      margin: 0 0.8em;
+      /* margin: 0 0.8em; */
   }
   .person-img {
     width: 100%;
