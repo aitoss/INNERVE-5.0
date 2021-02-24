@@ -1080,6 +1080,37 @@
 
         <!-------------------------------------------------- FAQ Section ------------------------------------------------------>
 
+
+
+        <!---------------------------------------------------- Judges Section ------------------------------------------------------->
+        <div class="container-fluid speaker-main " id="navspeaker ">
+            <div class="container mb-4 ">
+                <h2 class="mb-5 " style="text-align: center; ">Our Judges</h2>
+            </div>
+            <div class="container" id="app">
+                <div class="team-container">
+                    <div class="person-list">
+                        <div class="person" v-for="(person,index) in persons">
+                            <img class="person-img" :src="person.photo">
+                            <div class="person-details">
+                                <div class="d-flex flex-row flex-wrap person-social">
+                                    <a :href="person.link.linkedin"><img class="person-social-img"
+                                            src="./assets/img/linkedin.svg" alt=""></a>
+                                    <!-- <a :href="person.link.twitter"><img class="person-social-img"
+                                            src="./assets/img/twitter-full.svg" alt=""></a> -->
+                                </div>
+                                <h2 class="person-title">{{person.name}}</h2>
+                                <p class="person-desc">{{person.title}}</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!---------------------------------------------------- Judges Section ------------------------------------------------------->
+
+
         <!---------------------------------------------------- Speaker Section ------------------------------------------------------->
 
         <div class="container-fluid speaker-main " id="navspeaker ">
@@ -1088,16 +1119,6 @@
             </div>
             <div class="row justify-content-center ">
                 <div class="col-md-10 d-flex flex-row flex-wrap justify-content-around ">
-                    <div class="col-md-4 speaker-card speaker-blur text-center phone-none ">
-                        <a href="# ">
-                            <div class="col-12 pb-3 "><img class="speaker-img " src="./assets/img/dummy.png " alt=" ">
-                            </div>
-                            <h4>John Doe</h4>
-                            <p>CEO, FAAMG
-                            </p>
-                            <img class="card-arrow " src="./assets/img/right-arrow.svg "></img>
-                        </a>
-                    </div>
                     <div class="col-md-4 speaker-card text-center ">
                         <a href="https://www.linkedin.com/in/tamanjit/" target="_blank">
                             <div class="col-12 pb-3 "><img class="speaker-img " src="./assets/Speaker/tamanjitSir.jpeg"
@@ -1110,6 +1131,17 @@
                             <p>CEO, FAAMG
                             </p> -->
                             <img class="card-arrow" src="./assets/img/right-arrow.svg "></img>
+                        </a>
+                    </div>
+                    <div class="col-md-4 speaker-card text-center phone-none ">
+                        <a href="# ">
+                            <div class="col-12 pb-3 "><img class="speaker-img " src="./assets/Speaker/varun.jpeg "
+                                    alt=" ">
+                            </div>
+                            <h4>Varun Jain</h4>
+                            <p>Co-Founder & CEO</p>
+                            <p>udChalo</p>
+                            <img class="card-arrow " src="./assets/img/right-arrow.svg "></img>
                         </a>
                     </div>
                     <div class="col-md-4 speaker-card speaker-blur text-center phone-none ">
