@@ -1347,7 +1347,8 @@ a.btn-approach:hover:before {
 }
 
 .speaker-card {
-    height: 320px;
+    height: 360px;
+    padding: 1em;
 }
 .speaker-blur{
     filter: blur(4px);
