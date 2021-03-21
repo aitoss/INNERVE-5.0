@@ -10,6 +10,7 @@ INNERVE 5.0 is one of the most macro-scale hackathon annually organized by the O
 Innerve 5.0 got over 900+ registrations from different states throughout the country.
 
 </p>
+
 <br>
 <div style="text-align:center">
     Made with ❤ by [OSS Club](https://aitoss.club). 
