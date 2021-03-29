@@ -12,11 +12,8 @@ Innerve 5.0 got over 900+ registrations from different states throughout the cou
 </p>
 
 <br>
-<div style="text-align:center">
-    Made with ❤ by [OSS Club](https://aitoss.club). 
-</div>
 
 # Copyright
 If you are thinking to use this website for your hackathon, We would love to see AIT OSS CLUB mention at your hosted application.
 
-Made with heart by OSS Club.
+Made with ❤ by [OSS Club](https://aitoss.club). 
